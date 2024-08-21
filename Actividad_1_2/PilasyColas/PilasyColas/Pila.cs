@@ -55,12 +55,13 @@ namespace PilasyColas
 
         public object Extraer()
         {
+            object item = this.Primero();
             if (!this.EstaVacia())
             {
                 pilas[contador - 1] = null;   //Pone a null la última posición ocupada, que no es lo mismo que la última posición de la longitud total
                 contador -= 1;
             }
-            return this.Primero();
+            return item;
 
         }
 

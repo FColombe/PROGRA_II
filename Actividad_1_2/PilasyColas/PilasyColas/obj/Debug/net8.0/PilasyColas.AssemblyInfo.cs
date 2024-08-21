@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PilasyColas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e29bd3cffba8115a3324dd9c8f0d38f1391054fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b02b7f337497d4644a4b565c4527d1797278ca68")]
 [assembly: System.Reflection.AssemblyProductAttribute("PilasyColas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PilasyColas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
