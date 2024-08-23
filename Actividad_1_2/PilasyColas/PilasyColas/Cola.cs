@@ -49,12 +49,13 @@ namespace PilasyColas
 
         public object Extraer()
         {
+            object item = this.Primero();
             if (!this.EstaVacia())
             {
                 colas.RemoveAt(0);   
                 contador -=1;
             }
-            return this.Primero();
+            return item;
         }
 
         public object Primero()

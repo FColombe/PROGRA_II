@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_1_2\\PilasyColas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B20365D-FFFC-4DAA-BD86-99ADA6D05F94}|PilasyColas\\PilasyColas.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_1_2\\pilasycolas\\pilasycolas\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B20365D-FFFC-4DAA-BD86-99ADA6D05F94}|PilasyColas\\PilasyColas.csproj|solutionrelative:pilasycolas\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B20365D-FFFC-4DAA-BD86-99ADA6D05F94}|PilasyColas\\PilasyColas.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_1_2\\pilasycolas\\pilasycolas\\cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B20365D-FFFC-4DAA-BD86-99ADA6D05F94}|PilasyColas\\PilasyColas.csproj|solutionrelative:pilasycolas\\cola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B20365D-FFFC-4DAA-BD86-99ADA6D05F94}|PilasyColas\\PilasyColas.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_1_2\\pilasycolas\\pilasycolas\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B20365D-FFFC-4DAA-BD86-99ADA6D05F94}|PilasyColas\\PilasyColas.csproj|solutionrelative:pilasycolas\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B20365D-FFFC-4DAA-BD86-99ADA6D05F94}|PilasyColas\\PilasyColas.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_1_2\\pilasycolas\\pilasycolas\\icollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Pila.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_1_2\\PilasyColas\\PilasyColas\\Pila.cs",
               "RelativeDocumentMoniker": "PilasyColas\\Pila.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_1_2\\PilasyColas\\PilasyColas\\Pila.cs",
               "RelativeToolTip": "PilasyColas\\Pila.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T18:16:03.696Z",
               "IsPinned": true,
@@ -44,15 +44,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Cola.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_1_2\\PilasyColas\\PilasyColas\\Cola.cs",
               "RelativeDocumentMoniker": "PilasyColas\\Cola.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_1_2\\PilasyColas\\PilasyColas\\Cola.cs",
               "RelativeToolTip": "PilasyColas\\Cola.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T20:24:29.28Z"
+              "WhenOpened": "2024-08-20T20:24:29.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
