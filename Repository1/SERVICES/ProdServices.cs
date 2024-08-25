@@ -10,7 +10,7 @@ namespace Repository1.SERVICES
 {
     public class ProdServices 
     {
-        private iRepository oRepository;   //creo una instancia de una interface  ¿POR QUÉ CREA UNA INSTANCIA DE INTERFACE Y NO DIRECTAMENTE LA CLASE QUE LA IMPLEMENTA???
+        private iProductRepository oRepository;   //creo una instancia de una interface  ¿POR QUÉ CREA UNA INSTANCIA DE INTERFACE Y NO DIRECTAMENTE LA CLASE QUE LA IMPLEMENTA???
 
         public ProdServices()
         {
