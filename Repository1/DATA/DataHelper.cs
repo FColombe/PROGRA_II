@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -68,31 +69,40 @@ namespace Repository1.DATA
         public List<Product> ExecuteQuery()                            //Otra variante de CONSULTA DE BD, con SqLReader y mapeo en el Repository, devuelve directamente una lista (Ienumarable??)
         {
             List<Product> lst = new List<Product>();
-            try 
-            { 
-            using (var cnn = new SqlConnection(strConnect))
+            try
             {
-                cnn.Open();
-                var query = $"SELECT * FROM Productos";
-                SqlCommand cmd = new SqlCommand(query, cnn);
-                SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                using (var cnn = new SqlConnection(strConnect))
                 {
-                    Product aux = new Product();
-                    aux.Codigo = reader.GetInt32(0);
-                    aux.Nombre = reader.GetString(1);
-                    aux.Precio = reader.GetFloat(2);
-                    aux.Activo = reader.GetBoolean(3);
-                    lst.Add(aux);
+                    cnn.Open();
+                    var query = $"SELECT * FROM Productos";
+                    SqlCommand cmd = new SqlCommand(query, cnn);
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        Product product = Mapper(reader);              //Método interno para el mapeo
+                        lst.Add(product);
+                    }
                 }
+                return lst;
             }
-            return lst;
-            }
-            catch (SqlException) 
+            catch (SqlException)
             {
                 throw;
             }
+
         }
+
+        private Product Mapper(SqlDataReader reader)   //Método para mapear
+        {
+            Product aux = new Product();
+            aux.Codigo = reader.GetInt32(0);
+            aux.Nombre = reader.GetString(1);
+            aux.Precio = reader.GetFloat(2);
+            aux.Activo = reader.GetBoolean(3);
+
+            return aux;                               //retorna un objeto
+        }
+
     }
 }
 

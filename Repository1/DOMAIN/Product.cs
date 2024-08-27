@@ -20,6 +20,10 @@ namespace Repository1.DOMAIN
             
         }
 
+        public override string ToString()
+        {
+            return Codigo + Nombre;
+        }
 
 
     }
