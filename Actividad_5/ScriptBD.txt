@@ -15,7 +15,7 @@ CONSTRAINT pk_id_tipo_art PRIMARY KEY (id_tipo_art)
 );
 
 CREATE TABLE ARTICULOS
-(cod_art int NOT NULL,
+(cod_art int identity(1,1),
 nombre varchar(50),
 tipo_art int,
 marca int, 
@@ -46,7 +46,7 @@ CONSTRAINT pk_cliente PRIMARY KEY (id_cliente)
 );
 
 CREATE TABLE FACTURAS
-(nro_factura int NOT NULL, 
+(nro_factura int identity(1,1), 
 fecha datetime,
 cliente int,
 forma_pago int
@@ -102,24 +102,24 @@ END;
 
 --INSERTAR ARTÍCULOS
 CREATE PROCEDURE sp_insert_articulos
-				@cod_art int, 
 				@nombre varchar(50), 
 				@tipo_art int, 
 				@marca int, 
 				@pre_unitario decimal(6,2)
 AS 
 BEGIN
-	INSERT INTO ARTICULOS(cod_art, nombre, tipo_art, marca, pre_unitario )
-		VALUES	(@cod_art, @nombre, @tipo_art, @marca, @pre_unitario)
+	INSERT INTO ARTICULOS(nombre, tipo_art, marca, pre_unitario )
+		VALUES	(@nombre, @tipo_art, @marca, @pre_unitario)
 END;
 
 --ACTUALIZAR ARTÍCULOS
 CREATE PROCEDURE sp_update_articulos
+				@cod_art int,
 				@nombre varchar(50), 
 				@tipo_art int, 
 				@marca int, 
-				@pre_unitario decimal(6,2),
-				@cod_art int
+				@pre_unitario decimal(6,2)
+				
 AS 
 BEGIN
 	UPDATE ARTICULOS
@@ -150,6 +150,19 @@ BEGIN
 	ORDER BY 2
 END;
 
+--CONSULTAR ARTÍCULOS POR ID
+CREATE PROCEDURE sp_consult_artID
+		@cod_art int
+AS 
+BEGIN
+	SELECT a.cod_art 'COD ARTÍCULO', a.nombre 'NOMBRE', m.nombre 'MARCA', ta.descripcion 'TIPO', a.pre_unitario 'PRECIO'
+	FROM ARTICULOS a 
+	JOIN MARCAS m ON a.marca = m.id_marca
+	JOIN TIPO_ARTICULOS ta ON a.tipo_art = ta.id_tipo_art
+	WHERE cod_art = @cod_art
+	ORDER BY 2
+END;
+
 
 --TABLA CLIENTES
 --INSERTAR CLIENTE
@@ -169,13 +182,14 @@ END;
 
 --ACTUALIZAR CLIENTE
 CREATE PROCEDURE sp_update_clientes
+				@id_cliente int,
 				@nom_cliente varchar(50), 
 				@ape_cliente varchar(50), 
 				@cuit int, 
 				@calle varchar(50), 
 				@nro_calle int,
-				@telefono int,
-				@id int
+				@telefono int
+				
 AS 
 BEGIN
 	UPDATE CLIENTES
@@ -185,8 +199,9 @@ BEGIN
 			calle = @calle, 
 			nro_calle = @nro_calle, 
 			telefono = @telefono
-			WHERE id_cliente = @id
+			WHERE id_cliente = @id_cliente
 END;
+
 
 --BORRAR CLIENTE
 CREATE PROCEDURE sp_delete_clientes
@@ -196,6 +211,25 @@ BEGIN
 	DELETE FROM CLIENTES
 		WHERE id_cliente = @id
 END;
+
+
+--CONSULTAR CLIENTES
+CREATE PROCEDURE sp_Consult_Clientes
+AS
+BEGIN
+SELECT nom_cliente 'NOMBRE', ape_cliente 'APELLIDO', cuit 'CUIT', telefono 'CONTACTO' FROM clientes
+END;
+
+
+----CONSULTAR CLIENTES POR ID
+CREATE PROCEDURE sp_Consult_ClientesID
+		@id_cliente int 
+AS 
+BEGIN
+SELECT id_cliente 'id', nom_cliente 'NOMBRE', ape_cliente 'APELLIDO', cuit 'CUIT', telefono 'CONTACTO' FROM clientes
+	WHERE id_cliente = @id_cliente
+END;
+
 
 
 --TABLA FACTURAS

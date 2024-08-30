@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Actividad_5.DATOS
+namespace Actividad_5.DATOS.Interfaces
 {
     interface IArtRepository
     {
-        List<Articulo> GetAll();
-        Articulo GetById(int id);
-        int Save(Articulo articulo);
-        int Delete(Articulo articulo);
+        List<Articulo> ConsultarTodos();
+        Articulo ConsultarPorId(int id);
+        bool Grabar(Articulo articulo);
+        bool Borrar(Articulo articulo);
     }
 }

@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cadenacnn" xml:space="preserve">
-    <value>Data Source=DESKTOP-LV2EDMI\SQLEXPRESS;Initial Catalog=COMERCIO_EL_YUYITO;Integrated Security=True</value>
+    <value>Data Source=DESKTOP-LV2EDMI\SQLEXPRESS;Initial Catalog=COMERCIO_PEQUEÑO;Integrated Security=True</value>
   </data>
 </root>

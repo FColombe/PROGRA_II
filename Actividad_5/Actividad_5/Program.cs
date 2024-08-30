@@ -11,7 +11,7 @@ public class Program
         Servicio serv = new Servicio();
         List<Articulo> lst = new List<Articulo>();
 
-        Console.WriteLine("hola)");
+        
 
         lst = serv.ConsultarArt();
         foreach (Articulo oArticulo in lst)
