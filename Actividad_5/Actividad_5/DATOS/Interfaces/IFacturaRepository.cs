@@ -1,18 +1,17 @@
 ﻿using Actividad_5.NEGOCIO.DOMINIO;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Actividad_5.DATOS.Interfaces
 {
-    interface IArtRepository
+    interface IFacturaRepository
     {
-        List<Articulo> ConsultarTodos();
-        Articulo ConsultarPorId(int id);
-        bool Grabar(Articulo articulo);
+        List<Factura> ConsultarTodos();
+        Factura ConsultarPorId(int id);
+        bool Grabar(Factura factura);
         bool Borrar(int id);
     }
 }

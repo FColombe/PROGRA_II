@@ -11,5 +11,11 @@ namespace Actividad_5.NEGOCIO.DOMINIO
         public int Id { get; set; }
         public string Nombre { get; set; }
         public double Recargo { get; set; }
+
+
+        public override string ToString()
+        {
+            return Id + " | " + Nombre + " | " + Recargo + " %";
+        }
     }
 }

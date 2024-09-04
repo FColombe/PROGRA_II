@@ -19,7 +19,7 @@ CREATE TABLE ARTICULOS
 nombre varchar(50),
 tipo_art int,
 marca int, 
-pre_unitario decimal(6,2)
+pre_unitario decimal(10,2)
 CONSTRAINT pk_articulo PRIMARY KEY (cod_art),
 CONSTRAINT fk_art_marca FOREIGN KEY (marca)
 	REFERENCES marcas(id_marca),
@@ -30,7 +30,7 @@ CONSTRAINT fk_art_tipo FOREIGN KEY (tipo_art)
 CREATE TABLE FORMA_PAGOS
 (id_forma_pago int identity(1,1),
 forma_pago varchar(50) NOT NULL,
-recargo decimal(3,2)
+recargo decimal(10,2)
 CONSTRAINT pk_forma_pagos PRIMARY KEY (id_forma_pago)
 );
 
@@ -50,6 +50,7 @@ CREATE TABLE FACTURAS
 fecha datetime,
 cliente int,
 forma_pago int
+activo bit
 CONSTRAINT pk_facturas PRIMARY KEY (nro_factura),
 CONSTRAINT fk_factura_cliente FOREIGN KEY (cliente)
 	REFERENCES clientes(id_cliente),
@@ -62,7 +63,7 @@ CREATE TABLE DETALLES_FACTURAS
 nro_factura int, 
 articulo int,
 cantidad int,
-pre_venta decimal (4,2)
+pre_venta decimal (10,2)
 CONSTRAINT pk_detalle_factura PRIMARY KEY (id_detalle),
 CONSTRAINT fk_detalles_factura FOREIGN KEY (nro_factura)
 	REFERENCES facturas(nro_factura),
@@ -85,19 +86,27 @@ END;
 
 --EXEC sp_insert_marca 'Mañanita';
 
-CREATE PROCEDURE sp_insert_tipo_art
-				@descripcion varchar(50)
-AS 
+CREATE PROCEDURE sp_Consult_Marca
+AS
 BEGIN
-	INSERT INTO TIPO_ARTICULOS(descripcion)
-		VALUES	(@descripcion)
+SELECT * FROM MARCAS
 END;
 
---EXEC sp_insert_tipo_art 'INFUSIONES';
---EXEC sp_insert_tipo_art 'AZÚCAR';
---EXEC sp_insert_tipo_art 'HARINA';
---EXEC sp_insert_tipo_art 'GALLETAS DULCES';
---EXEC sp_insert_tipo_art 'GALLETAS SALADAS';
+CREATE PROCEDURE sp_Insert_TipoArt
+					@descripcion varchar(50)
+AS
+BEGIN 
+INSERT INTO TIPO_ARTICULOS (descripcion)
+	VALUES (@descripcion)
+END;
+
+
+CREATE PROCEDURE sp_Consult_TipoArt
+					
+AS
+BEGIN 
+select * from TIPO_ARTICULOS
+END;
 
 
 --INSERTAR ARTÍCULOS
@@ -105,7 +114,7 @@ CREATE PROCEDURE sp_insert_articulos
 				@nombre varchar(50), 
 				@tipo_art int, 
 				@marca int, 
-				@pre_unitario decimal(6,2)
+				@pre_unitario decimal(10,2)
 AS 
 BEGIN
 	INSERT INTO ARTICULOS(nombre, tipo_art, marca, pre_unitario )
@@ -118,7 +127,7 @@ CREATE PROCEDURE sp_update_articulos
 				@nombre varchar(50), 
 				@tipo_art int, 
 				@marca int, 
-				@pre_unitario decimal(6,2)
+				@pre_unitario decimal(10,2)
 				
 AS 
 BEGIN
@@ -223,7 +232,7 @@ END;
 
 ----CONSULTAR CLIENTES POR ID
 CREATE PROCEDURE sp_Consult_ClientesID
-		@id_cliente int 
+		 @id_cliente int 
 AS 
 BEGIN
 SELECT id_cliente 'id', nom_cliente 'NOMBRE', ape_cliente 'APELLIDO', cuit 'CUIT', telefono 'CONTACTO' FROM clientes
@@ -231,8 +240,58 @@ SELECT id_cliente 'id', nom_cliente 'NOMBRE', ape_cliente 'APELLIDO', cuit 'CUIT
 END;
 
 
+--TABLA FORMAS DE PAGO
+CREATE PROCEDURE sp_insert_formaPago
+				@forma_pago varchar(30),
+				@recargo decimal(10,2)
+AS
+BEGIN
+	INSERT INTO FORMA_PAGOS (forma_pago, recargo)
+		VALUES (@forma_pago, @recargo)
+END;
+
+CREATE PROCEDURE sp_Consult_formaPago
+AS
+BEGIN
+	SELECT *
+		FROM FORMA_PAGOS
+END;
+
+
 
 --TABLA FACTURAS
+CREATE PROCEDURE sp_Consult_Facturas
+AS
+BEGIN
+SELECT f.nro_factura, f.fecha, a.nombre, df.cantidad, a.pre_unitario, (df.cantidad*df.pre_unitario) 'TOTAL DETALLE'
+	FROM FACTURAS f
+	JOIN DETALLES_FACTURAS df ON f.nro_factura = df.nro_factura
+	JOIN ARTICULOS a ON df.articulo = a.cod_art
+END;
 
 
+CREATE PROCEDURE sp_Insert_Factura
+				@idCliente int,
+				@idFormaPago int,
+				@activo bit,
+				@nroFactura int OUTPUT
+AS
+BEGIN
+INSERT INTO FACTURAS (fecha, cliente, forma_pago, activo)
+			VALUES (GETDATE(), @idCliente, @idFormaPago, @activo)
+			SET @nroFactura = SCOPE_IDENTITY();
+END;
+
+
+--TABLA DETALLES
+CREATE PROCEDURE sp_Insert_Detalles
+					@nroFactura int,
+					@articulo int,
+					@cantidad int,
+					@pre_venta decimal(10,2)
+AS 
+BEGIN
+INSERT INTO DETALLES_FACTURAS (nro_factura,articulo, cantidad, pre_venta)
+				VALUES (@nroFactura, @articulo, @cantidad, @pre_venta)
+END;
 

@@ -28,27 +28,43 @@ namespace Actividad_5.DATOS.Utilidades
             return instancia;
         }
 
+        public SqlConnection Conectar()     //Permite conectar desde otro lugar del código
+        {
+            return cnn;
+        }
 
-        public DataTable ConsultarBD(string sp)
+        public DataTable ConsultarBD(string sp, List<Parametros> lstP)
         {
             DataTable dt = new DataTable();
             try
             {
-                using (cnn)
+                cnn.Open();
+
+                var cmd = new SqlCommand(sp, cnn);                 //ASOCIO LA QUERY Y LA CONEXIÓN!!!!!
+                cmd.CommandType = CommandType.StoredProcedure;
+                if (lstP != null)
                 {
-                    cnn.Open();
-                    var cmd = new SqlCommand(sp, cnn);                 //ASOCIO LA QUERY Y LA CONEXIÓN!!!!!
-                    cmd.CommandType = CommandType.StoredProcedure;
-
-                    dt.Load(cmd.ExecuteReader());
-
+                    foreach (Parametros p in lstP)
+                    {
+                        cmd.Parameters.AddWithValue(p.Nombre, p.Valor);
+                    }
                 }
+
+                dt.Load(cmd.ExecuteReader());
+                cnn.Close();
+                
             }
             catch (SqlException)
             {
                 dt = null;
             }
-
+            finally
+            {
+                if(cnn != null && cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                }
+            }
             return dt;
         }
 
@@ -57,27 +73,34 @@ namespace Actividad_5.DATOS.Utilidades
             int filas = 0;
             try
             {
-                using (cnn)
+
+                cnn.Open();
+                var cmd = new SqlCommand(sp, cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                if (lstP != null)
                 {
-                    cnn.Open();
-                    var cmd = new SqlCommand(sp, cnn);
-                    if (lstP != null)
+                    foreach (Parametros p in lstP)
                     {
-                        foreach (Parametros p in lstP)
-                        {
-                            cmd.Parameters.AddWithValue(p.Nombre, p.Valor);
-                        }
+                        cmd.Parameters.AddWithValue(p.Nombre, p.Valor);
                     }
-                    filas = cmd.ExecuteNonQuery();
                 }
+                filas = cmd.ExecuteNonQuery();
+                cnn.Close();
+
             }
             catch
             {
                 filas = 0;
             }
+            finally
+            {
+                if(cnn != null && cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                }
+            }
 
             return filas;
         }
     }
-
 }

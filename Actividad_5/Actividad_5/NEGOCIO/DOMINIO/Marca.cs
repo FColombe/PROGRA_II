@@ -16,6 +16,9 @@ namespace Actividad_5.NEGOCIO.DOMINIO
             idMarca = 0;
             Nombre = string.Empty;
         }
-
+        public override string ToString()
+        {
+            return idMarca + " - " + Nombre;
+        }
     }
 }

@@ -18,15 +18,18 @@ namespace Actividad_5.NEGOCIO.DOMINIO
         { 
             CodArt = 0;
             Nombre = string.Empty;
-            Marca = null;
-            Tipo = null;
+            Marca = new Marca();             //Inicializar las propertis del tipo local, instanciando 
+            Marca.idMarca = 0;
+            Marca.Nombre = string.Empty;
+            Tipo = new TipoArt();
+            Tipo.idTipo = 0;
+            Tipo.Tipo = string.Empty;
             PreUnitario = 0;     
         }
 
         public override string ToString()
         {
-            return CodArt + " | " + Nombre + " | " + Marca + " | " + Tipo + " | " + PreUnitario;
+            return CodArt + " | " + Nombre + " | " + Marca.Nombre + " | " + Tipo.Tipo + " | " + PreUnitario;
         }
-
     }
 }

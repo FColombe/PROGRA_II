@@ -1,18 +1,16 @@
 ﻿using Actividad_5.NEGOCIO.DOMINIO;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Actividad_5.DATOS.Interfaces
 {
-    interface IArtRepository
+    interface IFormaPagoRepository
     {
-        List<Articulo> ConsultarTodos();
-        Articulo ConsultarPorId(int id);
-        bool Grabar(Articulo articulo);
-        bool Borrar(int id);
+        public List<Forma_Pago> VerFormasPago();
+        public bool AgregarFormaPago(Forma_Pago forma);
+
     }
 }
