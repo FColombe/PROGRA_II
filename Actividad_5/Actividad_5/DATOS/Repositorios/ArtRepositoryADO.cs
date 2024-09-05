@@ -1,6 +1,6 @@
 ﻿using Actividad_5.DATOS.Interfaces;
 using Actividad_5.DATOS.Utilidades;
-using Actividad_5.NEGOCIO.DOMINIO;
+using Actividad_5.DOMINIO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -22,9 +22,7 @@ namespace Actividad_5.DATOS.Repositorios
                 Articulo oArticulo = new Articulo();
                 oArticulo.CodArt = (int)fila[0];
                 oArticulo.Nombre = (string)fila[1];
-                //Marca oMarca = new Marca();
                 oArticulo.Marca.Nombre = (string)fila[2];
-                //TipoArt oTipo = new TipoArt();
                 oArticulo.Tipo.Tipo = (string)fila[3];
                 oArticulo.PreUnitario = Convert.ToDouble(fila[4]);
 
@@ -48,9 +46,7 @@ namespace Actividad_5.DATOS.Repositorios
                 Articulo oArticulo = new Articulo();
                 oArticulo.CodArt = (int)fila[0];
                 oArticulo.Nombre = (string)fila[1];
-                //Marca oMarca = new Marca();
                 oArticulo.Marca.Nombre = (string)fila[2];
-                //TipoArt oTipo = new TipoArt();
                 oArticulo.Tipo.Tipo = (string)fila[3];
                 oArticulo.PreUnitario = Convert.ToDouble(fila[4]);
                 return oArticulo;
@@ -67,7 +63,7 @@ namespace Actividad_5.DATOS.Repositorios
            
             if (articulo != null)
             {
-                if (articulo.CodArt == 0)                         //SI EL CODIGO ES 0, NO VIENE DADO, ENTONCES ES UN INSERT
+                if (articulo.CodArt == 0)                                          //SI EL CODIGO ES 0, NO VIENE DADO, ENTONCES ES UN INSERT
                 {
                     var lst = new List<Parametros>()                               //Crea la lista y carga los objetos sin llamar al método Add. 
                     {

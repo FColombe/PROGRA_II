@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Actividad_5.NEGOCIO.DOMINIO
+namespace Actividad_5.DOMINIO
 {
     public class Cliente
     {
@@ -13,7 +13,7 @@ namespace Actividad_5.NEGOCIO.DOMINIO
         public string Apellido { get; set; }
         public int Cuit { get; set; }
         public int Tel { get; set; }
-        public string Calle {  get; set; }
+        public string Calle { get; set; }
         public int NroCalle { get; set; }
 
         public Cliente() { }

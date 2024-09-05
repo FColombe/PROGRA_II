@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Actividad_5.NEGOCIO.DOMINIO
+namespace Actividad_5.DOMINIO
 {
     public class Detalles
     {
         public Articulo Articulo { get; set; }
         public int Cantidad { get; set; }
 
-        public Factura Factura { get; set; } 
+        public Factura Factura { get; set; }
 
         public Detalles()
         {
@@ -22,7 +22,7 @@ namespace Actividad_5.NEGOCIO.DOMINIO
 
         public override string ToString()
         {
-            return Articulo.Nombre + " | " + Cantidad;
+            return "Artículo: " + Articulo.Nombre + " Cantidad: " + Cantidad + " Precio unitario:  $" + Articulo.PreUnitario;
         }
 
         public double SubTotal()     //Calcula el subtotal de cada renglón en la factura; el total de la factura es la suma de los Subtotales

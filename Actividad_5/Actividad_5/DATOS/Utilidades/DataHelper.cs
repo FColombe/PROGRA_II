@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Actividad_5.DATOS.Utilidades
 {
@@ -28,10 +22,6 @@ namespace Actividad_5.DATOS.Utilidades
             return instancia;
         }
 
-        public SqlConnection Conectar()     //Permite conectar desde otro lugar del código
-        {
-            return cnn;
-        }
 
         public DataTable ConsultarBD(string sp, List<Parametros> lstP)
         {
@@ -40,7 +30,7 @@ namespace Actividad_5.DATOS.Utilidades
             {
                 cnn.Open();
 
-                var cmd = new SqlCommand(sp, cnn);                 //ASOCIO LA QUERY Y LA CONEXIÓN!!!!!
+                var cmd = new SqlCommand(sp, cnn);                 
                 cmd.CommandType = CommandType.StoredProcedure;
                 if (lstP != null)
                 {
@@ -73,7 +63,6 @@ namespace Actividad_5.DATOS.Utilidades
             int filas = 0;
             try
             {
-
                 cnn.Open();
                 var cmd = new SqlCommand(sp, cnn);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -99,7 +88,71 @@ namespace Actividad_5.DATOS.Utilidades
                     cnn.Close();
                 }
             }
+            return filas;
+        }
 
+        public int EjecutarTransaccion(string sp1, List<Parametros> lstF, string sp2, List<List<Parametros>> lstD)
+        {
+            int filas = 0;
+            SqlTransaction tr = null;
+            try
+            {                      
+                cnn.Open();
+                tr = cnn.BeginTransaction();                                           //Inicia la transacción, se va a cerrar con Commit o Rollback
+
+                SqlCommand cmd = new SqlCommand(sp1, cnn, tr);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                if (lstF != null)
+                {
+                    foreach (Parametros p in lstF)
+                    {
+                        cmd.Parameters.AddWithValue(p.Nombre, p.Valor);
+                    }
+                }
+                
+                var param = new SqlParameter("@nroFactura", SqlDbType.Int);     //Para obtener el parámetro de salida (Nombre del parametro, tipo de dato, dirección
+                param.Direction = ParameterDirection.Output;
+                cmd.Parameters.Add(param);
+
+                filas = cmd.ExecuteNonQuery();
+
+                int NroFactura = Convert.ToInt32(param.Value);
+
+                if(lstD != null)
+                {
+                    foreach(var subList in lstD)
+                    {
+                        var cmdD = new SqlCommand(sp2, cnn, tr);
+                        cmdD.CommandType = CommandType.StoredProcedure;
+
+                        cmdD.Parameters.AddWithValue("@nroFactura", NroFactura);
+
+                        foreach (var p in subList)
+                        {
+                            cmdD.Parameters.AddWithValue(p.Nombre, p.Valor);
+                        }
+                        filas = cmdD.ExecuteNonQuery();
+                    }
+                }
+
+                tr.Commit();                //Confirma todo lo anterior
+            }
+            catch (SqlException)
+            {
+                if (tr != null)
+                {
+                    tr.Rollback();          //Si algo falla, no se ejecuta nada en la base
+                }
+                filas = 0;
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                }
+            }
             return filas;
         }
     }

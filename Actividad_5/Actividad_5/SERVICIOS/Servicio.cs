@@ -1,7 +1,7 @@
 ﻿using Actividad_5.DATOS;
 using Actividad_5.DATOS.Interfaces;
 using Actividad_5.DATOS.Repositorios;
-using Actividad_5.NEGOCIO.DOMINIO;
+using Actividad_5.DOMINIO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +19,7 @@ namespace Actividad_5.NEGOCIO.SERVICIOS
         private IFormaPagoRepository oRepoFormaPago;
         private ITipoArtRepository oRepoTipoArt;
         private IFacturaRepository oRepoFactura;
+
         public Servicio()
         {
             oRepoArticulos = new ArtRepositoryADO();
@@ -112,5 +113,14 @@ namespace Actividad_5.NEGOCIO.SERVICIOS
         {
             return oRepoFactura.Grabar(factura);
         }
+        public List<Factura> MostrarFacturas()
+        {
+            return oRepoFactura.ConsultarTodos();
+        }
+        public bool AnularFactura(int nro)
+        {
+            return oRepoFactura.Borrar(nro);
+        }
+
     }
 }

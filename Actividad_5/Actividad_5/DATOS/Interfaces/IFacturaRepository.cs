@@ -1,4 +1,4 @@
-﻿using Actividad_5.NEGOCIO.DOMINIO;
+﻿using Actividad_5.DOMINIO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +12,6 @@ namespace Actividad_5.DATOS.Interfaces
         List<Factura> ConsultarTodos();
         Factura ConsultarPorId(int id);
         bool Grabar(Factura factura);
-        bool Borrar(int id);
+        bool Borrar(int nro);
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Actividad_5.DATOS.Interfaces;
 using Actividad_5.DATOS.Utilidades;
-using Actividad_5.NEGOCIO.DOMINIO;
+using Actividad_5.DOMINIO;
 using System;
 using System.Collections.Generic;
 using System.Data;

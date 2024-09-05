@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Actividad_5.NEGOCIO.DOMINIO
+namespace Actividad_5.DOMINIO
 {
     public class Marca
     {
-        public int idMarca {  get; set; }
+        public int idMarca { get; set; }
         public string Nombre { get; set; }
 
-        public Marca() 
+        public Marca()
         {
             idMarca = 0;
             Nombre = string.Empty;

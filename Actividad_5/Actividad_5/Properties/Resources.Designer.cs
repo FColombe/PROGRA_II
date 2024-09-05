@@ -61,7 +61,7 @@ namespace Actividad_5.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=DESKTOP-LV2EDMI\SQLEXPRESS;Initial Catalog=COMERCIO_PEQUEÑO;Integrated Security=True.
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-LV2EDMI\SQLEXPRESS;Initial Catalog=COMERCIO_EL_YUYITO;Integrated Security=True.
         /// </summary>
         internal static string cadenacnn {
             get {

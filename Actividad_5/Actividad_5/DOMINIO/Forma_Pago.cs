@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Actividad_5.NEGOCIO.DOMINIO
+namespace Actividad_5.DOMINIO
 {
     public class Forma_Pago
     {

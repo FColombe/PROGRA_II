@@ -49,8 +49,8 @@ CREATE TABLE FACTURAS
 (nro_factura int identity(1,1), 
 fecha datetime,
 cliente int,
-forma_pago int
-activo bit
+forma_pago int,
+activo bit 
 CONSTRAINT pk_facturas PRIMARY KEY (nro_factura),
 CONSTRAINT fk_factura_cliente FOREIGN KEY (cliente)
 	REFERENCES clientes(id_cliente),
@@ -263,10 +263,12 @@ END;
 CREATE PROCEDURE sp_Consult_Facturas
 AS
 BEGIN
-SELECT f.nro_factura, f.fecha, a.nombre, df.cantidad, a.pre_unitario, (df.cantidad*df.pre_unitario) 'TOTAL DETALLE'
+
+SELECT f.nro_factura, c.ape_cliente, c.nom_cliente, f.fecha, a.nombre, df.cantidad, a.pre_unitario, f.activo
 	FROM FACTURAS f
 	JOIN DETALLES_FACTURAS df ON f.nro_factura = df.nro_factura
 	JOIN ARTICULOS a ON df.articulo = a.cod_art
+	JOIN CLIENTES c ON f.cliente = c.id_cliente
 END;
 
 
@@ -280,6 +282,16 @@ BEGIN
 INSERT INTO FACTURAS (fecha, cliente, forma_pago, activo)
 			VALUES (GETDATE(), @idCliente, @idFormaPago, @activo)
 			SET @nroFactura = SCOPE_IDENTITY();
+END;
+
+CREATE PROCEDURE sp_Update_Factura
+				@nroFactura int,
+				@activo bit
+AS
+BEGIN
+UPDATE FACTURAS 
+		SET activo = @activo
+		WHERE nro_factura = @nroFactura		
 END;
 
 
