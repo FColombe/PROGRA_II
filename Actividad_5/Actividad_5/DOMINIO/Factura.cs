@@ -40,7 +40,7 @@ namespace Actividad_5.DOMINIO
         }
         public override string ToString()
         {
-            return Nro + " | " + Fecha + " | " + Cliente.Apellido + ", " + Cliente.Nombre + " | " + FormaPago.Nombre + " | " + ConvertEstado();
+            return Nro + " | " + Fecha.ToString("dd/MM/yyyy") + " | " + Cliente.Apellido + ", " + Cliente.Nombre + " | " + FormaPago.Nombre + " | " + ConvertEstado();
         }
 
         public double Total()
@@ -52,5 +52,7 @@ namespace Actividad_5.DOMINIO
             }
             return total;
         }
+
+        //Se puede hacer un método cargar lista de detalles, que recibe como parámetros el artículo y la cantidad. 
     }
 }

@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Actividad_5.NEGOCIO.SERVICIOS
+namespace Actividad_5.SERVICIOS.SERVICIOS
 {
     public class Servicio 
     {
@@ -107,20 +107,26 @@ namespace Actividad_5.NEGOCIO.SERVICIOS
             return oRepoFormaPago.VerFormasPago();
         }
 
-
         //FACTURAS
-        public bool AgregarFactura(Factura factura)
-        {
-            return oRepoFactura.Grabar(factura);
-        }
         public List<Factura> MostrarFacturas()
         {
             return oRepoFactura.ConsultarTodos();
+        }
+        public Factura MostrarFacturaID(int nro)
+        {
+            return oRepoFactura.ConsultarPorId(nro);
+        }
+        public bool AgregarFactura(Factura factura)
+        {
+            return oRepoFactura.Grabar(factura);
         }
         public bool AnularFactura(int nro)
         {
             return oRepoFactura.Borrar(nro);
         }
-
+        public List<Factura> MostrarFacturaEstado(string estado)
+        {
+            return oRepoFactura.ConsultarFactEstado(estado);
+        }
     }
 }

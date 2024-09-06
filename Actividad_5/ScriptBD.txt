@@ -294,6 +294,18 @@ UPDATE FACTURAS
 		WHERE nro_factura = @nroFactura		
 END;
 
+CREATE PROCEDURE sp_Consult_FacturasID
+				@nroFactura int
+AS
+BEGIN
+
+SELECT f.nro_factura, c.ape_cliente, c.nom_cliente, f.fecha, a.nombre, df.cantidad, a.pre_unitario, f.activo
+	FROM FACTURAS f
+	JOIN DETALLES_FACTURAS df ON f.nro_factura = df.nro_factura
+	JOIN ARTICULOS a ON df.articulo = a.cod_art
+	JOIN CLIENTES c ON f.cliente = c.id_cliente
+		WHERE f.nro_factura = @nroFactura
+END;
 
 --TABLA DETALLES
 CREATE PROCEDURE sp_Insert_Detalles

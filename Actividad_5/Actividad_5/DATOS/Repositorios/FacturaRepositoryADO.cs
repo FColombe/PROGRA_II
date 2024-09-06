@@ -14,7 +14,7 @@ namespace Actividad_5.DATOS.Repositorios
             foreach (DataRow f in dt.Rows)
             {
                 var nroFactura = (int)f[0];                                   //PARA ASOCIAR VARIOS DETALLES A LA MISMA FACTURA                  
-                var factura = lst.FirstOrDefault(x => x.Nro == nroFactura);  //Busca en la lista de facturas, si ya hay una con el mismo nro: si ya hay, devuelve ese objeto y se saltea el if que sigue, sino dvuelve null y entra al if para cargarse
+                var factura = lst.FirstOrDefault(x => x.Nro == nroFactura);  //Busca en la lista de facturas si ya hay una con el mismo nro: si ya hay, devuelve ese objeto y se saltea el if que sigue, sino dvuelve null y entra al if para cargarse
 
                 if( factura == null)
                 {
@@ -32,6 +32,7 @@ namespace Actividad_5.DATOS.Repositorios
 
                 var det = new Detalles();
                 {
+                    det.Factura.Nro = (int)f[0];
                     det.Articulo.Nombre = (string)f[5];
                     det.Cantidad = (int)f[6];
                     det.Articulo.PreUnitario = Convert.ToDouble(f[7]);
@@ -44,9 +45,86 @@ namespace Actividad_5.DATOS.Repositorios
 
         public Factura ConsultarPorId(int id)
         {
-            throw new NotImplementedException();
+            var list = new List<Parametros>()
+            {
+                new Parametros("@nroFactura", id)
+            };
+
+            var dt = DataHelper
+                .CrearInstancia()
+                .ConsultarBD("sp_Consult_FacturasID", list);
+
+            if (dt.Rows.Count > 0 && dt != null)
+            {
+                DataRow f = dt.Rows[0];
+                var factura = new Factura();
+                {
+                    factura.Nro = (int)f[0];
+                    factura.Cliente.Apellido = (string)f[2];
+                    factura.Cliente.Nombre = (string)f[3];
+                    factura.Fecha = Convert.ToDateTime(f[1]);
+                    factura.FormaPago.Nombre = (string)f[4];
+                    factura.Estado = (bool)f[8];
+                }
+
+                foreach(DataRow d in dt.Rows)
+                {
+                    Detalles det = new Detalles();
+                    {
+                        det.Factura.Nro = (int)f[0];
+                        det.Articulo.Nombre = (string)f[5];
+                        det.Cantidad = (int)f[6];
+                        det.Articulo.PreUnitario = Convert.ToDouble(f[7]);
+                    }
+                    factura.Detalles.Add(det);
+                }
+                return factura;
+            }
+            else
+            {
+                return null;
+            }
         }
 
+        public List<Factura> ConsultarFactEstado(string estado)
+        {
+            var lst = new List<Factura>();
+            var list = new List<Parametros>()
+            {
+                new Parametros("@activo", estado)
+            };
+            var dt = DataHelper.CrearInstancia().ConsultarBD("sp_Consult_EstadosFactura", list);
+            foreach (DataRow f in dt.Rows)
+            {
+                var nroFactura = (int)f[0];                                              
+                var factura = lst.FirstOrDefault(x => x.Nro == nroFactura);  
+
+                if (factura == null)
+                {
+                    factura = new Factura();
+                    {
+                        factura.Nro = (int)f[0];
+                        factura.Fecha = Convert.ToDateTime(f[1]);
+                        factura.Cliente.Apellido = (string)f[2];
+                        factura.Cliente.Nombre = (string)f[3];
+                        factura.FormaPago.Nombre = (string)f[4];
+                        factura.Estado = (bool)f[8];
+                    }
+                    lst.Add(factura);
+                }
+
+                var det = new Detalles();
+                {
+                    det.Factura.Nro = (int)f[0];
+                    det.Articulo.Nombre = (string)f[5];
+                    det.Cantidad = (int)f[6];
+                    det.Articulo.PreUnitario = Convert.ToDouble(f[7]);
+                }
+                factura.Detalles.Add(det);
+            }
+
+            return lst;
+        }
 
         public bool Grabar(Factura factura)
         {
@@ -82,7 +160,6 @@ namespace Actividad_5.DATOS.Repositorios
             return nueva;
         }
 
-
         public bool Borrar(int nro)                //BORRADO LÓGICO
         {
             var anulada = false;
@@ -98,74 +175,5 @@ namespace Actividad_5.DATOS.Repositorios
             }
             return anulada;
         }
-
-
-
-
-
-
-
-
-
-
-        //public bool Grabar(Factura factura)
-        //{
-        //    bool result = true;
-        //    SqlConnection cnn = null;
-        //    SqlTransaction tr = null;
-        //    try
-        //    {
-        //        cnn = DataHelper.CrearInstancia().Conectar();                          //Abre la conexión desde el repository
-        //        cnn.Open();
-        //        tr = cnn.BeginTransaction();                                           //Inicia la transacción, se va a cerrar con Commit o Rollback
-
-        //        SqlCommand cmd = new SqlCommand("sp_Insert_Factura", cnn, tr);
-        //        cmd.CommandType = CommandType.StoredProcedure;
-
-        //        cmd.Parameters.AddWithValue("@idCliente", factura.Cliente.ID);
-        //        cmd.Parameters.AddWithValue("@idFormaPago", factura.FormaPago.Id);
-        //        cmd.Parameters.AddWithValue("@activo", true);
-
-        //        SqlParameter p = new SqlParameter("@nroFactura", SqlDbType.Int);     //Para obtener el parámetro de salida (Nombre del parametro, tipo de dato, dirección
-        //        p.Direction = ParameterDirection.Output;
-        //        cmd.Parameters.Add(p);
-
-        //        cmd.ExecuteNonQuery();
-
-        //        int NroFactura = Convert.ToInt32(p.Value);
-
-        //        foreach (var d in factura.Detalles)              //Llamo a la lista como properti
-        //        {
-        //            var cmdD = new SqlCommand("sp_Insert_Detalles", cnn, tr);
-        //            cmdD.CommandType = CommandType.StoredProcedure;
-
-        //            cmdD.Parameters.AddWithValue("@NroFactura", NroFactura);
-        //            cmdD.Parameters.AddWithValue("@articulo", d.Articulo.CodArt);
-        //            cmdD.Parameters.AddWithValue("@cantidad", d.Cantidad);
-        //            cmdD.Parameters.AddWithValue("@pre_venta", Convert.ToDecimal(d.Articulo.PreUnitario));
-
-        //            cmdD.ExecuteNonQuery();
-        //        }
-
-        //        tr.Commit();                //Confirma todo lo anterior
-        //    }
-        //    catch (SqlException)
-        //    {
-        //        if (tr != null)
-        //        {
-        //            tr.Rollback();          //Si algo falla, no se ejecuta nada en la base
-        //        }
-        //        result = false;
-        //    }
-        //    finally
-        //    {
-        //        if (cnn != null && cnn.State == ConnectionState.Open)
-        //        {
-        //            cnn.Close();
-        //        }
-        //    }
-
-        //    return result;
-        //}
     }
 }

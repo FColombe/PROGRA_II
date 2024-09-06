@@ -11,6 +11,7 @@ namespace Actividad_5.DATOS.Interfaces
     {
         List<Factura> ConsultarTodos();
         Factura ConsultarPorId(int id);
+        List<Factura> ConsultarFactEstado(string estado);
         bool Grabar(Factura factura);
         bool Borrar(int nro);
     }
