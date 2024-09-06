@@ -264,11 +264,12 @@ CREATE PROCEDURE sp_Consult_Facturas
 AS
 BEGIN
 
-SELECT f.nro_factura, c.ape_cliente, c.nom_cliente, f.fecha, a.nombre, df.cantidad, a.pre_unitario, f.activo
+SELECT f.nro_factura, f.fecha, c.ape_cliente, c.nom_cliente, p.forma_pago, a.nombre, df.cantidad, a.pre_unitario, f.activo
 	FROM FACTURAS f
 	JOIN DETALLES_FACTURAS df ON f.nro_factura = df.nro_factura
 	JOIN ARTICULOS a ON df.articulo = a.cod_art
 	JOIN CLIENTES c ON f.cliente = c.id_cliente
+	JOIN FORMA_PAGOS p ON f.forma_pago = p.id_forma_pago
 END;
 
 
@@ -299,11 +300,12 @@ CREATE PROCEDURE sp_Consult_FacturasID
 AS
 BEGIN
 
-SELECT f.nro_factura, c.ape_cliente, c.nom_cliente, f.fecha, a.nombre, df.cantidad, a.pre_unitario, f.activo
+SELECT f.nro_factura, f.fecha, c.ape_cliente, c.nom_cliente, p.forma_pago, a.nombre, df.cantidad, a.pre_unitario, f.activo
 	FROM FACTURAS f
 	JOIN DETALLES_FACTURAS df ON f.nro_factura = df.nro_factura
 	JOIN ARTICULOS a ON df.articulo = a.cod_art
 	JOIN CLIENTES c ON f.cliente = c.id_cliente
+	JOIN FORMA_PAGOS p ON f.forma_pago = p.id_forma_pago
 		WHERE f.nro_factura = @nroFactura
 END;
 
