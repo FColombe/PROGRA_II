@@ -1,0 +1,15 @@
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.Properties.Resources.resources
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.AssemblyInfo.cs
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.sourcelink.json
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\bin\Debug\net8.0\BackArticulos.deps.json
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\bin\Debug\net8.0\BackArticulos.dll
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\bin\Debug\net8.0\BackArticulos.pdb
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.dll
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\refint\BackArticulos.dll
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\BackArticulos.pdb
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_2\BackArticulos\obj\Debug\net8.0\ref\BackArticulos.dll

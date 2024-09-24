@@ -3,52 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\pruebas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:pruebas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\servicios\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:servicios\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\utilidades\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\utilidades\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\artrepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\artrepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\forma_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\forma_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\marcarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\marcarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\tipoartrepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\tipoartrepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\utilidades\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\utilidades\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\actividad_5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:actividad_5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\pruebas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:pruebas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\formapagorepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\formapagorepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\clienterepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\clienterepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\artrepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\artrepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\utilidades\\parametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\utilidades\\parametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\iartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\iartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\tipoart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,42 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\forma_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\forma_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\formapagorepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\formapagorepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\clienterepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\clienterepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\iartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\iartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\imarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\imarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\itipoartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\itipoartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,81 +82,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\PRUEBAS\\Program.cs",
-              "RelativeDocumentMoniker": "PRUEBAS\\Program.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\PRUEBAS\\Program.cs",
-              "RelativeToolTip": "PRUEBAS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T15:37:35.579Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MarcaRepositoryADO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\MarcaRepositoryADO.cs",
-              "RelativeDocumentMoniker": "DATOS\\Repositorios\\MarcaRepositoryADO.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\MarcaRepositoryADO.cs",
-              "RelativeToolTip": "DATOS\\Repositorios\\MarcaRepositoryADO.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA4wBYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:01:02.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Detalles.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Detalles.cs",
               "RelativeDocumentMoniker": "DOMINIO\\Detalles.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Detalles.cs",
               "RelativeToolTip": "DOMINIO\\Detalles.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T21:54:29.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ClienteRepositoryADO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\ClienteRepositoryADO.cs",
-              "RelativeDocumentMoniker": "DATOS\\Repositorios\\ClienteRepositoryADO.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\ClienteRepositoryADO.cs",
-              "RelativeToolTip": "DATOS\\Repositorios\\ClienteRepositoryADO.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T16:03:38.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ArtRepositoryADO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\ArtRepositoryADO.cs",
-              "RelativeDocumentMoniker": "DATOS\\Repositorios\\ArtRepositoryADO.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\ArtRepositoryADO.cs",
-              "RelativeToolTip": "DATOS\\Repositorios\\ArtRepositoryADO.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:01:07.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Servicio.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\SERVICIOS\\Servicio.cs",
-              "RelativeDocumentMoniker": "SERVICIOS\\Servicio.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\SERVICIOS\\Servicio.cs",
-              "RelativeToolTip": "SERVICIOS\\Servicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T03:45:12.69Z",
+              "WhenOpened": "2024-09-19T18:24:24.378Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Cliente.cs",
+              "RelativeDocumentMoniker": "DOMINIO\\Cliente.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Cliente.cs",
+              "RelativeToolTip": "DOMINIO\\Cliente.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:24:03.557Z"
             },
             {
               "$type": "Document",
@@ -186,205 +121,190 @@
               "RelativeDocumentMoniker": "DOMINIO\\Factura.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Factura.cs",
               "RelativeToolTip": "DOMINIO\\Factura.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwCoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T21:50:27.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T17:16:36.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FacturaRepositoryADO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\FacturaRepositoryADO.cs",
-              "RelativeDocumentMoniker": "DATOS\\Repositorios\\FacturaRepositoryADO.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\FacturaRepositoryADO.cs",
-              "RelativeToolTip": "DATOS\\Repositorios\\FacturaRepositoryADO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:44:19.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IFacturaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IFacturaRepository.cs",
-              "RelativeDocumentMoniker": "DATOS\\Interfaces\\IFacturaRepository.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IFacturaRepository.cs",
-              "RelativeToolTip": "DATOS\\Interfaces\\IFacturaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:43:35.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataHelper.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Utilidades\\DataHelper.cs",
-              "RelativeDocumentMoniker": "DATOS\\Utilidades\\DataHelper.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Utilidades\\DataHelper.cs",
-              "RelativeToolTip": "DATOS\\Utilidades\\DataHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T15:42:31.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TipoArtRepositoryADO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\TipoArtRepositoryADO.cs",
-              "RelativeDocumentMoniker": "DATOS\\Repositorios\\TipoArtRepositoryADO.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\TipoArtRepositoryADO.cs",
-              "RelativeToolTip": "DATOS\\Repositorios\\TipoArtRepositoryADO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T03:36:25.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Forma_Pago.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Forma_Pago.cs",
-              "RelativeDocumentMoniker": "DOMINIO\\Forma_Pago.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Forma_Pago.cs",
-              "RelativeToolTip": "DOMINIO\\Forma_Pago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T21:50:20.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TipoArt.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\TipoArt.cs",
-              "RelativeDocumentMoniker": "DOMINIO\\TipoArt.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\TipoArt.cs",
-              "RelativeToolTip": "DOMINIO\\TipoArt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T20:34:46.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Marca.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Marca.cs",
-              "RelativeDocumentMoniker": "DOMINIO\\Marca.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Marca.cs",
-              "RelativeToolTip": "DOMINIO\\Marca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T19:18:17.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Articulo.cs",
-              "RelativeDocumentMoniker": "DOMINIO\\Articulo.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Articulo.cs",
-              "RelativeToolTip": "DOMINIO\\Articulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:13:27.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Cliente.cs",
-              "RelativeDocumentMoniker": "DOMINIO\\Cliente.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Cliente.cs",
-              "RelativeToolTip": "DOMINIO\\Cliente.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:36:30.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Actividad_5.csproj",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\Actividad_5.csproj",
-              "RelativeDocumentMoniker": "Actividad_5.csproj",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\Actividad_5.csproj",
-              "RelativeToolTip": "Actividad_5.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-05T03:44:43.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "FormaPagoRepositoryADO.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\FormaPagoRepositoryADO.cs",
               "RelativeDocumentMoniker": "DATOS\\Repositorios\\FormaPagoRepositoryADO.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\FormaPagoRepositoryADO.cs",
               "RelativeToolTip": "DATOS\\Repositorios\\FormaPagoRepositoryADO.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T22:00:04.784Z"
+              "WhenOpened": "2024-09-17T17:14:35.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IArtRepository.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IArtRepository.cs",
-              "RelativeDocumentMoniker": "DATOS\\Interfaces\\IArtRepository.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IArtRepository.cs",
-              "RelativeToolTip": "DATOS\\Interfaces\\IArtRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T15:42:09.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ITipoArtRepository.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\ITipoArtRepository.cs",
-              "RelativeDocumentMoniker": "DATOS\\Interfaces\\ITipoArtRepository.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\ITipoArtRepository.cs",
-              "RelativeToolTip": "DATOS\\Interfaces\\ITipoArtRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T03:35:20.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IMarcaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IMarcaRepository.cs",
-              "RelativeDocumentMoniker": "DATOS\\Interfaces\\IMarcaRepository.cs",
-              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IMarcaRepository.cs",
-              "RelativeToolTip": "DATOS\\Interfaces\\IMarcaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T15:41:50.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 9,
               "Title": "IFormaPagoRepository.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IFormaPagoRepository.cs",
               "RelativeDocumentMoniker": "DATOS\\Interfaces\\IFormaPagoRepository.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IFormaPagoRepository.cs",
               "RelativeToolTip": "DATOS\\Interfaces\\IFormaPagoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T21:57:50.023Z"
+              "WhenOpened": "2024-09-17T17:13:43.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 3,
+              "Title": "Forma_Pago.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Forma_Pago.cs",
+              "RelativeDocumentMoniker": "DOMINIO\\Forma_Pago.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Forma_Pago.cs",
+              "RelativeToolTip": "DOMINIO\\Forma_Pago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T17:13:26.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IFacturaRepository.cs",
+              "RelativeDocumentMoniker": "DATOS\\Interfaces\\IFacturaRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IFacturaRepository.cs",
+              "RelativeToolTip": "DATOS\\Interfaces\\IFacturaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T17:07:47.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacturaRepositoryADO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\FacturaRepositoryADO.cs",
+              "RelativeDocumentMoniker": "DATOS\\Repositorios\\FacturaRepositoryADO.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\FacturaRepositoryADO.cs",
+              "RelativeToolTip": "DATOS\\Repositorios\\FacturaRepositoryADO.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T17:05:08.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteRepositoryADO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\ClienteRepositoryADO.cs",
+              "RelativeDocumentMoniker": "DATOS\\Repositorios\\ClienteRepositoryADO.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\ClienteRepositoryADO.cs",
+              "RelativeToolTip": "DATOS\\Repositorios\\ClienteRepositoryADO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T20:29:33.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\PRUEBAS\\Program.cs",
+              "RelativeDocumentMoniker": "PRUEBAS\\Program.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\PRUEBAS\\Program.cs",
+              "RelativeToolTip": "PRUEBAS\\Program.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAAN4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:37:35.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Utilidades\\DataHelper.cs",
+              "RelativeDocumentMoniker": "DATOS\\Utilidades\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Utilidades\\DataHelper.cs",
+              "RelativeToolTip": "DATOS\\Utilidades\\DataHelper.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAcwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T19:56:09.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "DATOS\\Interfaces\\IClienteRepository.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IClienteRepository.cs",
               "RelativeToolTip": "DATOS\\Interfaces\\IClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:36:50.302Z"
+              "WhenOpened": "2024-09-14T20:29:29.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Parametros.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Utilidades\\Parametros.cs",
+              "RelativeDocumentMoniker": "DATOS\\Utilidades\\Parametros.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Utilidades\\Parametros.cs",
+              "RelativeToolTip": "DATOS\\Utilidades\\Parametros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T20:40:05.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IArtRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IArtRepository.cs",
+              "RelativeDocumentMoniker": "DATOS\\Interfaces\\IArtRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IArtRepository.cs",
+              "RelativeToolTip": "DATOS\\Interfaces\\IArtRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T20:29:18.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Articulo.cs",
+              "RelativeDocumentMoniker": "DOMINIO\\Articulo.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Articulo.cs",
+              "RelativeToolTip": "DOMINIO\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T20:04:31.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TipoArt.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\TipoArt.cs",
+              "RelativeDocumentMoniker": "DOMINIO\\TipoArt.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\TipoArt.cs",
+              "RelativeToolTip": "DOMINIO\\TipoArt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T20:04:12.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Marca.cs",
+              "RelativeDocumentMoniker": "DOMINIO\\Marca.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Marca.cs",
+              "RelativeToolTip": "DOMINIO\\Marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T20:03:53.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ArtRepositoryADO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\ArtRepositoryADO.cs",
+              "RelativeDocumentMoniker": "DATOS\\Repositorios\\ArtRepositoryADO.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\ArtRepositoryADO.cs",
+              "RelativeToolTip": "DATOS\\Repositorios\\ArtRepositoryADO.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAwGcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T22:01:07.746Z"
             }
           ]
         }

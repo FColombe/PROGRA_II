@@ -25,7 +25,6 @@ namespace Actividad_5.DATOS.Repositorios
                 oArticulo.Marca.Nombre = (string)fila[2];
                 oArticulo.Tipo.Tipo = (string)fila[3];
                 oArticulo.PreUnitario = Convert.ToDouble(fila[4]);
-
                 lst.Add(oArticulo);
             }
 
@@ -56,6 +55,8 @@ namespace Actividad_5.DATOS.Repositorios
                 return null;
             }
         }
+
+     
 
         public bool Grabar(Articulo articulo)
         {

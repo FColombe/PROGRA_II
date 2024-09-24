@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{909A3608-F1D7-4B4B-9FF4-4FFD867D5540}|WebApiArticulos\\WebApiArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\webapiarticulos\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909A3608-F1D7-4B4B-9FF4-4FFD867D5540}|WebApiArticulos\\WebApiArticulos.csproj|solutionrelative:webapiarticulos\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\services\\implementations\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\services\\implementations\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\data\\implementations\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\data\\implementations\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\data\\utils\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\data\\utils\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909A3608-F1D7-4B4B-9FF4-4FFD867D5540}|WebApiArticulos\\WebApiArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\webapiarticulos\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909A3608-F1D7-4B4B-9FF4-4FFD867D5540}|WebApiArticulos\\WebApiArticulos.csproj|solutionrelative:webapiarticulos\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909A3608-F1D7-4B4B-9FF4-4FFD867D5540}|WebApiArticulos\\WebApiArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\webapiarticulos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{909A3608-F1D7-4B4B-9FF4-4FFD867D5540}|WebApiArticulos\\WebApiArticulos.csproj|solutionrelative:webapiarticulos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\services\\contracts\\iartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\services\\contracts\\iartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\services\\contracts\\ifacturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\services\\contracts\\ifacturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\data\\contracts\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\data\\contracts\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\services\\implementations\\artservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\services\\implementations\\artservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\models\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\models\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_2\\backarticulos\\data\\contracts\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F4DCB9-62B6-4A15-B050-E2F5CA18929A}|BackArticulos\\BackArticulos.csproj|solutionrelative:backarticulos\\data\\contracts\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormaPago.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\MODELS\\FormaPago.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\MODELS\\FormaPago.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\MODELS\\FormaPago.cs",
+              "RelativeToolTip": "BackArticulos\\MODELS\\FormaPago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:23:18.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\MODELS\\Cliente.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\MODELS\\Cliente.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\MODELS\\Cliente.cs",
+              "RelativeToolTip": "BackArticulos\\MODELS\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:23:08.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\DATA\\IMPLEMENTATIONS\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\DATA\\IMPLEMENTATIONS\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\DATA\\IMPLEMENTATIONS\\FacturaRepository.cs",
+              "RelativeToolTip": "BackArticulos\\DATA\\IMPLEMENTATIONS\\FacturaRepository.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAqwJoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:21:26.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\DATA\\CONTRACTS\\IArticuloRepository.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\DATA\\CONTRACTS\\IArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\DATA\\CONTRACTS\\IArticuloRepository.cs",
+              "RelativeToolTip": "BackArticulos\\DATA\\CONTRACTS\\IArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:15:20.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\DATA\\CONTRACTS\\IFacturaRepository.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\DATA\\CONTRACTS\\IFacturaRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\DATA\\CONTRACTS\\IFacturaRepository.cs",
+              "RelativeToolTip": "BackArticulos\\DATA\\CONTRACTS\\IFacturaRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:15:19.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\DATA\\UTILS\\DataHelper.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\DATA\\UTILS\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\DATA\\UTILS\\DataHelper.cs",
+              "RelativeToolTip": "BackArticulos\\DATA\\UTILS\\DataHelper.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T23:54:21.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IArtService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\SERVICES\\CONTRACTS\\IArtService.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\SERVICES\\CONTRACTS\\IArtService.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\SERVICES\\CONTRACTS\\IArtService.cs",
+              "RelativeToolTip": "BackArticulos\\SERVICES\\CONTRACTS\\IArtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:44:28.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\SERVICES\\IMPLEMENTATIONS\\FacturaService.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\SERVICES\\IMPLEMENTATIONS\\FacturaService.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\SERVICES\\IMPLEMENTATIONS\\FacturaService.cs",
+              "RelativeToolTip": "BackArticulos\\SERVICES\\IMPLEMENTATIONS\\FacturaService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvysAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:46:18.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\WebApiArticulos\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "WebApiArticulos\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\WebApiArticulos\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "WebApiArticulos\\Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwF0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:50:15.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detalle.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\MODELS\\Detalle.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\MODELS\\Detalle.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\MODELS\\Detalle.cs*",
+              "RelativeToolTip": "BackArticulos\\MODELS\\Detalle.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAC/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T04:46:51.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\WebApiArticulos\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiArticulos\\appsettings.json",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\WebApiArticulos\\appsettings.json",
+              "RelativeToolTip": "WebApiArticulos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T04:38:40.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\WebApiArticulos\\Controllers\\ArticuloController.cs",
+              "RelativeDocumentMoniker": "WebApiArticulos\\Controllers\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\WebApiArticulos\\Controllers\\ArticuloController.cs",
+              "RelativeToolTip": "WebApiArticulos\\Controllers\\ArticuloController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:03:36.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\SERVICES\\CONTRACTS\\IFacturaService.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\SERVICES\\CONTRACTS\\IFacturaService.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\SERVICES\\CONTRACTS\\IFacturaService.cs",
+              "RelativeToolTip": "BackArticulos\\SERVICES\\CONTRACTS\\IFacturaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:44:22.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ArtService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\SERVICES\\IMPLEMENTATIONS\\ArtService.cs",
+              "RelativeDocumentMoniker": "BackArticulos\\SERVICES\\IMPLEMENTATIONS\\ArtService.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_2\\BackArticulos\\SERVICES\\IMPLEMENTATIONS\\ArtService.cs",
+              "RelativeToolTip": "BackArticulos\\SERVICES\\IMPLEMENTATIONS\\ArtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:44:03.631Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
