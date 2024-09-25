@@ -156,13 +156,36 @@ namespace BackArticulos.DATA.IMPLEMENTATIONS
 
         public bool Update(Factura factura)
         {
-            throw new NotImplementedException();
-        }
-        public bool Delete(int nro)
-        {
-            throw new NotImplementedException();
+            var flag = false;
+            var lstP = new List<Parameters>()
+            {
+                new Parameters("@nroFactura", factura.Nro),
+                new Parameters("@fecha", factura.Fecha),
+                new Parameters("@cliente", factura.Cliente.ID),
+                new Parameters("@forma_pago", factura.FormaPago.Id)
+            };
+            var modified = DataHelper.GetInstance().ExecuteSP("sp_Update_Factura", lstP);
+            if (modified > 0)
+            {
+                flag = true;
+            }
+            return flag;
         }
 
-       
+        public bool Delete(int nro)
+        {
+            var flag = false;
+            var lstP = new List<Parameters>()
+            {
+                new Parameters("@nroFactura", nro),
+                new Parameters("@activo", false)
+            };
+            var deleted = DataHelper.GetInstance().ExecuteSP("sp_Delete_Factura", lstP);
+            if (deleted > 0)
+            {
+                flag = true;
+            }
+            return flag;
+        }
     }
 }

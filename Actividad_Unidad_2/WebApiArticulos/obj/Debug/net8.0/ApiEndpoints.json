@@ -101,6 +101,38 @@
   },
   {
     "ContainingType": "WebApiArticulos.Controllers.FacturaController",
+    "Method": "Put",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factura",
+        "Type": "BackArticulos.MODELS.Factura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiArticulos.Controllers.FacturaController",
+    "Method": "Delete",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nro",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiArticulos.Controllers.FacturaController",
     "Method": "GetByDate",
     "RelativePath": "api/Factura/GetByDate",
     "HttpMethod": "GET",

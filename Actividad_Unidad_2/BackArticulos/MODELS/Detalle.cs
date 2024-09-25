@@ -11,13 +11,13 @@ namespace BackArticulos.MODELS
         public Articulo Articulo { get; set; }
         public int Cantidad { get; set; }
 
-        //public Factura Factura { get; set; }   // Este dato se solicita desde la API al hacer el POST, si lo dejo no funciona, porque el id es identity por lo cual no lo conozco de antemano
+        public int? nroFactura { get; set; }   
 
         public Detalle()
         {
             Articulo = new Articulo();
             Cantidad = 0;
-            //Factura = new Factura();
+            nroFactura = 0;
         }
 
         public override string ToString()

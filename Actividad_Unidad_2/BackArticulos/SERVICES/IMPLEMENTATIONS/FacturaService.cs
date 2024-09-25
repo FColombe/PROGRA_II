@@ -45,11 +45,11 @@ namespace BackArticulos.SERVICES.IMPLEMENTATIONS
 
         public bool UpdateFactura(Factura factura)
         {
-            throw new NotImplementedException();
+            return oRepoFactura.Update(factura);
         }
         public bool DeleteFactura(int nro)
         {
-            throw new NotImplementedException();
+            return oRepoFactura.Delete(nro);
         }
     }
 }

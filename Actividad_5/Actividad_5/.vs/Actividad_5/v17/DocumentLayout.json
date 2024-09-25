@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\repositorios\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\repositorios\\facturarepositoryado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\datos\\interfaces\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:datos\\interfaces\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|solutionrelative:dominio\\detalles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FD7487B-0915-4D07-9C02-14705D0CB2FA}|Actividad_5.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_5\\actividad_5\\dominio\\forma_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Detalles.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DOMINIO\\Detalles.cs",
               "RelativeDocumentMoniker": "DOMINIO\\Detalles.cs",
@@ -163,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IFacturaRepository.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Interfaces\\IFacturaRepository.cs",
               "RelativeDocumentMoniker": "DATOS\\Interfaces\\IFacturaRepository.cs",
@@ -171,17 +171,18 @@
               "RelativeToolTip": "DATOS\\Interfaces\\IFacturaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T17:07:47.678Z"
+              "WhenOpened": "2024-09-17T17:07:47.678Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FacturaRepositoryADO.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\FacturaRepositoryADO.cs",
               "RelativeDocumentMoniker": "DATOS\\Repositorios\\FacturaRepositoryADO.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_5\\Actividad_5\\DATOS\\Repositorios\\FacturaRepositoryADO.cs",
               "RelativeToolTip": "DATOS\\Repositorios\\FacturaRepositoryADO.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAQwK4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T17:05:08.34Z",
               "EditorCaption": ""

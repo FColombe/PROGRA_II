@@ -3,6 +3,11 @@ using BackArticulos.MODELS;
 using BackArticulos.SERVICES.CONTRACTS;
 using BackArticulos.SERVICES.IMPLEMENTATIONS;
 using System.Reflection.Metadata.Ecma335;
+using System.Diagnostics.Eventing.Reader;
+using System.Linq.Expressions;
+
+//COLOMBETTI, FLORENCIA MAT. 412289
+
 
 namespace WebApiArticulos.Controllers
 {
@@ -11,7 +16,7 @@ namespace WebApiArticulos.Controllers
 
     public class FacturaController : ControllerBase
     {
-        private IFacturaService serv;                     //No me deja llamar a la interface
+        private IFacturaService serv;
 
         public FacturaController()
         {
@@ -25,14 +30,21 @@ namespace WebApiArticulos.Controllers
         }
 
         [HttpGet("GetByDate")]
-        public IActionResult GetByDate (DateTime date)
+        public IActionResult GetByDate([FromQuery] DateTime date)
         {
             try
             {
-                if(date != null)
+                if (date != null)
                 {
                     var facts = serv.GetFacturasByDate(date);
-                    return Ok(facts);
+                    if (facts != null)
+                    {
+                        return Ok(facts);
+                    }
+                    else
+                    {
+                        return NotFound("No se encontraron facturas con esa fecha.");
+                    }
                 }
                 else
                 {
@@ -46,14 +58,22 @@ namespace WebApiArticulos.Controllers
         }
 
         [HttpGet("GetByPay")]
-        public IActionResult GetByPay(int id)
+        public IActionResult GetByPay([FromQuery] int id)
         {
             try
             {
                 if (id != null)
                 {
                     var facts = serv.GetFacturasByPay(id);
-                    return Ok(facts);
+                    if (facts != null)
+                    {
+                        return Ok(facts);
+                    }
+                    else
+                    {
+                        return NotFound("No se encontraron facturas con esa forma de pago.");
+                    }
+
                 }
                 else
                 {
@@ -67,14 +87,21 @@ namespace WebApiArticulos.Controllers
         }
 
         [HttpGet("GetById")]
-        public IActionResult GetById(int nro)
+        public IActionResult GetById([FromQuery] int nro)
         {
             try
             {
                 if (nro != null)
                 {
                     var fact = serv.GetFacturasById(nro);
-                    return Ok(fact);
+                    if (fact != null)
+                    {
+                        return Ok(fact);
+                    }
+                    else
+                    {
+                        return NotFound("No se encontró ninguna factura con ese número.");
+                    }
                 }
                 else
                 {
@@ -101,7 +128,7 @@ namespace WebApiArticulos.Controllers
                     }
                     else
                     {
-                        return StatusCode(500, "No se pudo procesar la solicitud. Intente nuevamente.");
+                        return StatusCode(500, "No se pudo cargar la factura. Intente nuevamente.");
                     }
                 }
                 else
@@ -115,6 +142,79 @@ namespace WebApiArticulos.Controllers
             }
         }
 
-       
+        [HttpPut]
+        public IActionResult Put([FromBody] Factura factura)
+        {
+            try
+            {
+                if (factura != null)
+                {
+                    var existFactura = serv.GetFacturasById(factura.Nro);
+                    if (existFactura != null)
+                    {
+                        var modified = serv.UpdateFactura(factura);
+                        if (modified)
+                        {
+                            return Ok("La factura fue modificada con éxito.");
+                        }
+                        else
+                        {
+                            return StatusCode(500, "No se pudo modificar la factura.");
+                        }
+                    }
+                    else
+                    {
+                        return NotFound("No se pudo hallar la factura solicitada.");
+                    }
+                }
+                else
+                {
+                    return BadRequest("Debe ingresar un número de factura válido.");
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error interno. No se pudo procesar la solicitud.");
+            }
+        }
+
+        [HttpDelete]
+        public IActionResult Delete([FromQuery] int nro)
+        {
+            try
+            {
+                if (nro <= 0)
+                {
+                    return BadRequest("Debe ingresar un número de factura válido.");
+                }
+                else
+                {
+                    var existFactura = serv.GetFacturasById(nro);
+                    if (existFactura != null)
+                    {
+                        var deleted = serv.DeleteFactura(nro);
+                        if (deleted)
+                        {
+                            return Ok("La factura fue anulada con éxito.");
+                        }
+                        else
+                        {
+                            return StatusCode(500, "No se pudo anular la factura.");
+                        }
+                    }
+                    else
+                    {
+                        return NotFound("No se pudo hallar la factura solicitada.");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error interno. No se pudo procesar la solicitud.");
+            }
+        }
     }
 }
+
+
+
