@@ -285,7 +285,7 @@ INSERT INTO FACTURAS (fecha, cliente, forma_pago, activo)
 			SET @nroFactura = SCOPE_IDENTITY();
 END;
 
-CREATE PROCEDURE sp_Update_Factura
+CREATE PROCEDURE sp_Delete_Factura
 				@nroFactura int,
 				@activo bit
 AS
@@ -354,4 +354,20 @@ SELECT f.nro_factura, CONVERT(varchar, f.fecha, 103), c.ape_cliente, c.nom_clien
 	JOIN CLIENTES c ON f.cliente = c.id_cliente
 	JOIN FORMA_PAGOS p ON f.forma_pago = p.id_forma_pago
 		WHERE p.id_forma_pago = @forma_pago
+END;
+
+--EDITAR FACTURAS
+
+CREATE PROCEDURE sp_Update_Factura
+				@nroFactura int,
+				@fecha datetime,
+				@cliente int,
+				@forma_pago int
+AS 
+BEGIN
+UPDATE FACTURAS 
+SET fecha = @fecha,
+	cliente = @cliente,
+	forma_pago = @forma_pago
+WHERE nro_factura = @nroFactura
 END;
