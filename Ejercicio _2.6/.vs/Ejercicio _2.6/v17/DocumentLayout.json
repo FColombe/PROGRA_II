@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio _2.6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B742446-617E-423F-8BB3-4A58F919815F}|RecetarioBack\\RecetarioBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\ejercicio _2.6\\recetarioback\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B742446-617E-423F-8BB3-4A58F919815F}|RecetarioBack\\RecetarioBack.csproj|solutionrelative:recetarioback\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio _2.6\\RecetarioBack\\Class1.cs",
+              "RelativeDocumentMoniker": "RecetarioBack\\Class1.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio _2.6\\RecetarioBack\\Class1.cs",
+              "RelativeToolTip": "RecetarioBack\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T18:56:55.538Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

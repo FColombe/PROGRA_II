@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TServicioController",
+    "Method": "Get",
+    "RelativePath": "api/TServicio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TServicioController",
+    "Method": "Post",
+    "RelativePath": "api/TServicio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servicio",
+        "Type": "PeluqueriaBack.Data.Models.TServicio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TServicioController",
+    "Method": "Put",
+    "RelativePath": "api/TServicio",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servicio",
+        "Type": "PeluqueriaBack.Data.Models.TServicio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TServicioController",
+    "Method": "Delete",
+    "RelativePath": "api/TServicio",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TServicioController",
+    "Method": "GetByCosto",
+    "RelativePath": "api/TServicio/GetByCosto/{costo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "costo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TServicioController",
+    "Method": "GetById",
+    "RelativePath": "api/TServicio/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TServicioController",
+    "Method": "GetByProm",
+    "RelativePath": "api/TServicio/GetByProm/{prom}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prom",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

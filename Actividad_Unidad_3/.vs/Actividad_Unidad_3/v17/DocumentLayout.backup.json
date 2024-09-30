@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\data\\models\\tservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\models\\tservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\data\\repositories\\implementations\\tserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\repositories\\implementations\\tserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\data\\repositories\\contracts\\itserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\repositories\\contracts\\itserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\data\\repositories\\contracts\\itturnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\repositories\\contracts\\itturnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\data\\models\\tturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\models\\tturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\services\\implementations\\tservicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\services\\implementations\\tservicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013199AE-5A4E-42D2-A5A6-581FCF7DA990}|PeluqueriaWebApi\\PeluqueriaWebApi.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriawebapi\\controllers\\tserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013199AE-5A4E-42D2-A5A6-581FCF7DA990}|PeluqueriaWebApi\\PeluqueriaWebApi.csproj|solutionrelative:peluqueriawebapi\\controllers\\tserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013199AE-5A4E-42D2-A5A6-581FCF7DA990}|PeluqueriaWebApi\\PeluqueriaWebApi.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriawebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013199AE-5A4E-42D2-A5A6-581FCF7DA990}|PeluqueriaWebApi\\PeluqueriaWebApi.csproj|solutionrelative:peluqueriawebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\data\\models\\peluqueriadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\models\\peluqueriadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013199AE-5A4E-42D2-A5A6-581FCF7DA990}|PeluqueriaWebApi\\PeluqueriaWebApi.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriawebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{013199AE-5A4E-42D2-A5A6-581FCF7DA990}|PeluqueriaWebApi\\PeluqueriaWebApi.csproj|solutionrelative:peluqueriawebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\peluqueriaback.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\peluqueriaback.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\services\\contracts\\itservicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\services\\contracts\\itservicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\data\\models\\sp\\peluqueriadbcontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\models\\sp\\peluqueriadbcontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\actividad_unidad_3\\peluqueriaback\\data\\models\\sp\\ipeluqueriadbcontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A3BE04-DF42-4BB8-84CD-98CB20137855}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\models\\sp\\ipeluqueriadbcontextprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TTurno.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\TTurno.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Models\\TTurno.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\TTurno.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Data\\Models\\TTurno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T02:04:41.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TServicioController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaWebApi\\Controllers\\TServicioController.cs",
+              "RelativeDocumentMoniker": "PeluqueriaWebApi\\Controllers\\TServicioController.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaWebApi\\Controllers\\TServicioController.cs",
+              "RelativeToolTip": "PeluqueriaWebApi\\Controllers\\TServicioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T23:30:30.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TServicioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Repositories\\Implementations\\TServicioRepository.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Repositories\\Implementations\\TServicioRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Repositories\\Implementations\\TServicioRepository.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Data\\Repositories\\Implementations\\TServicioRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAApwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:48:03.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITTurnoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Repositories\\Contracts\\ITTurnoRepository.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Repositories\\Contracts\\ITTurnoRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Repositories\\Contracts\\ITTurnoRepository.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Data\\Repositories\\Contracts\\ITTurnoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:55:50.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PELUQUERIADBContext.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\PELUQUERIADBContext.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Models\\PELUQUERIADBContext.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\PELUQUERIADBContext.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Data\\Models\\PELUQUERIADBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:46:31.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "PeluqueriaWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaWebApi\\Program.cs",
+              "RelativeToolTip": "PeluqueriaWebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:56:10.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITServicioService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Services\\CONTRACTS\\ITServicioService.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Services\\CONTRACTS\\ITServicioService.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Services\\CONTRACTS\\ITServicioService.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Services\\CONTRACTS\\ITServicioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T23:10:16.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TServicioService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Services\\IMPLEMENTATIONS\\TServicioService.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Services\\IMPLEMENTATIONS\\TServicioService.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Services\\IMPLEMENTATIONS\\TServicioService.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Services\\IMPLEMENTATIONS\\TServicioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T23:11:12.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITServicioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Repositories\\Contracts\\ITServicioRepository.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Repositories\\Contracts\\ITServicioRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Repositories\\Contracts\\ITServicioRepository.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Data\\Repositories\\Contracts\\ITServicioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:56:16.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TServicio.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\TServicio.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Models\\TServicio.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\TServicio.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Data\\Models\\TServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:40:08.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "PeluqueriaWebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaWebApi\\appsettings.json",
+              "RelativeToolTip": "PeluqueriaWebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T19:10:06.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "efpt.config.json",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\efpt.config.json",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\efpt.config.json",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\efpt.config.json",
+              "RelativeToolTip": "PeluqueriaBack\\efpt.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T19:15:20.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PeluqueriaBack.csproj",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\PeluqueriaBack.csproj",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\PeluqueriaBack.csproj",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\PeluqueriaBack.csproj",
+              "RelativeToolTip": "PeluqueriaBack\\PeluqueriaBack.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-29T19:10:54.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PeluqueriaDBContextProcedures.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\SP\\PeluqueriaDBContextProcedures.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Models\\SP\\PeluqueriaDBContextProcedures.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\SP\\PeluqueriaDBContextProcedures.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Data\\Models\\SP\\PeluqueriaDBContextProcedures.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:48:29.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPELUQUERIADBContextProcedures.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\SP\\IPELUQUERIADBContextProcedures.cs",
+              "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Models\\SP\\IPELUQUERIADBContextProcedures.cs",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Actividad_Unidad_3\\PeluqueriaBack\\Data\\Models\\SP\\IPELUQUERIADBContextProcedures.cs",
+              "RelativeToolTip": "PeluqueriaBack\\Data\\Models\\SP\\IPELUQUERIADBContextProcedures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:48:15.59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
