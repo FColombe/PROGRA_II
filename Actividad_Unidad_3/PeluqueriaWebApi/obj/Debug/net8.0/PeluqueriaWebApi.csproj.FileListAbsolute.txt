@@ -7,11 +7,13 @@ C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\PeluqueriaWebApi.pdb
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
@@ -74,5 +76,3 @@ C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\obj\
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\obj\Debug\net8.0\PeluqueriaWebApi.pdb
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\obj\Debug\net8.0\PeluqueriaWebApi.genruntimeconfig.cache
 C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\obj\Debug\net8.0\ref\PeluqueriaWebApi.dll
-C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Castle.Core.dll
-C:\Users\usuario\source\repos\PROGRA_II\Actividad_Unidad_3\PeluqueriaWebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll

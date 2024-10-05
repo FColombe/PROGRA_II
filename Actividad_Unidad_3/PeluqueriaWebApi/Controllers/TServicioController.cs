@@ -9,21 +9,21 @@ using System.Linq.Expressions;
 
 namespace PeluqueriaWebApi.Controllers
 {
-    //[Route("api/[controller]")]
-    //[ApiController]
-    //     NO TOMA ESTOS DECORADORES GLOBALES
+    [Route("api/[controller]")]
+    [ApiController]
+    //     NO TOMA LOS DECORADORES GLOBALES PORQUE NO HEREDA DE CONTROLLERBASE
 
 
-    public class TServicioController : Controller
+    public class TServicioController : ControllerBase
     {
-        
+
         private readonly ITServicioService _serv;
         public TServicioController(ITServicioService TServicioService)
         {
             _serv = TServicioService;
         }
 
-        [HttpGet("api/[controller]")]
+        [HttpGet]
         public IActionResult Get()
         {
             try
@@ -36,7 +36,7 @@ namespace PeluqueriaWebApi.Controllers
             }
         }
 
-        [HttpGet("api/[controller]/GetById")]
+        [HttpGet("GetById")]
         public IActionResult GetById([FromQuery] int id)
         {
             try
@@ -64,12 +64,12 @@ namespace PeluqueriaWebApi.Controllers
             }
         }
 
-        [HttpGet("api/[controller]/GetByProm/{prom}")]
+        [HttpGet("GetByProm/{prom}")]
         public IActionResult GetByProm(string prom)
         {
             try
             {
-                if(string.IsNullOrEmpty(prom))
+                if (string.IsNullOrEmpty(prom))
                 {
                     return BadRequest("Se esperaba un filtro.");
                 }
@@ -84,12 +84,13 @@ namespace PeluqueriaWebApi.Controllers
             }
         }
 
-        [HttpGet("api/[controller]/GetByCosto/{costo}")]
+
+        [HttpGet("GetByCosto/{costo}")]
         public IActionResult GetByCosto(int costo)
         {
             try
             {
-                if(costo == 0)
+                if (costo == 0)
                 {
                     return BadRequest("Se esperaba un monto para filtrar.");
                 }
@@ -105,8 +106,8 @@ namespace PeluqueriaWebApi.Controllers
         }
 
 
-        [HttpPost("api/[controller]")]
-        public IActionResult Post([FromBody] TServicio servicio)   
+        [HttpPost]
+        public IActionResult Post([FromBody] TServicio servicio)
         {
             try
             {
@@ -141,37 +142,25 @@ namespace PeluqueriaWebApi.Controllers
             }
         }
 
-        [HttpPut("api/[controller]")]
+
+        [HttpPut]
         public IActionResult Put([FromBody] TServicio servicio)
         {
             try
             {
-                if(servicio == null)
+                if (servicio == null)
                 {
                     return BadRequest("Se esperaban los datos completos de un servicio.");
                 }
                 else
                 {
-                    var servUpdate = _serv.GetServicioId(servicio.Id);   //Llama al método de filtro por ID para ver si existe o no el servicio a modificar. Tendría que hacerlo en el repository?
-                    
-                    if(servUpdate != null)
+                    if (_serv.UpdateServicio(servicio))
                     {
-                        servUpdate.Nombre = servicio.Nombre;              //Hay que asignar las propertis del q viene del swagger al que trae el método getbyid, pq sino se pisan y pasa al catch
-                        servUpdate.Costo = servicio.Costo;
-                        servUpdate.EnPromocion = servicio.EnPromocion;
-
-                        if(_serv.UpdateServicio(servUpdate))
-                        {
-                            return Ok("El servicio fue modificado con éxito.");
-                        }
-                        else
-                        {
-                            return StatusCode(500, "No se pudo modificar el servicio seleccionado.");
-                        }
+                        return Ok("El servicio fue modificado con éxito.");
                     }
                     else
                     {
-                        return NotFound("No existen servicios con el identificador seleccionado.");
+                        return NotFound("No se pudo encontrar el servicio indicado.");
                     }
                 }
             }
@@ -181,7 +170,8 @@ namespace PeluqueriaWebApi.Controllers
             }
         }
 
-        [HttpDelete("api/[controller]")]
+
+        [HttpDelete]
         public IActionResult Delete([FromQuery] int id)
         {
             try
@@ -192,7 +182,7 @@ namespace PeluqueriaWebApi.Controllers
                 }
                 else
                 {
-                    if(_serv.DeleteServicio(id))                 //El filtro por id para ver si existe está en el repository: si viene false, devuelve NotFound; pero si no se puede eliminar, va al catch?
+                    if (_serv.DeleteServicio(id))                 //El filtro por id para ver si existe está en el repository: si viene false, devuelve NotFound; pero si no se puede eliminar, va al catch?
                     {
                         return Ok("El servicio fue eliminado.");
                     }
@@ -208,9 +198,9 @@ namespace PeluqueriaWebApi.Controllers
             }
         }
 
-        public bool IsValid(TServicio serv)   //los campos son todos not null en la BD, por eso hace falta validar cada properti
+        private bool IsValid(TServicio serv)   //los campos son todos not null en la BD, por eso hace falta validar cada properti
         {
-            if(serv.Id !=0 && !string.IsNullOrWhiteSpace(serv.Nombre) && serv.Costo != 0 && !string.IsNullOrWhiteSpace(serv.EnPromocion))
+            if (serv.Id != 0 && !string.IsNullOrWhiteSpace(serv.Nombre) && serv.Costo != 0 && !string.IsNullOrWhiteSpace(serv.EnPromocion))
             {
                 return true;
             }

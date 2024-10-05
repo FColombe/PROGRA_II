@@ -16,6 +16,8 @@ builder.Services.AddDbContext<PELUQUERIADBContext>(options =>
 
 builder.Services.AddScoped <ITServicioRepository, TServicioRepository>();
 builder.Services.AddScoped <ITServicioService, TServicioService>();
+builder.Services.AddScoped<ITTurnoRepository, TTurnoRepository>();
+builder.Services.AddScoped<ITTurnoService, TTurnoService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

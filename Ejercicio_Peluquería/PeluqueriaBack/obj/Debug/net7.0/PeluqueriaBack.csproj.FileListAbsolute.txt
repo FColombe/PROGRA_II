@@ -1,0 +1,15 @@
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\bin\Debug\net7.0\PeluqueriaBack.deps.json
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\bin\Debug\net7.0\PeluqueriaBack.runtimeconfig.json
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\bin\Debug\net7.0\PeluqueriaBack.dll
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\bin\Debug\net7.0\PeluqueriaBack.pdb
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.AssemblyInfo.cs
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.sourcelink.json
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.dll
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\refint\PeluqueriaBack.dll
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.pdb
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\PeluqueriaBack.genruntimeconfig.cache
+C:\Users\usuario\source\repos\PROGRA_II\Ejercicio_Peluquería\PeluqueriaBack\obj\Debug\net7.0\ref\PeluqueriaBack.dll

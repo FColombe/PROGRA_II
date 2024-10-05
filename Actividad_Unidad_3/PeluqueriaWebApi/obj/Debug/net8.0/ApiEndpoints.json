@@ -104,5 +104,63 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TTurnoController",
+    "Method": "Get",
+    "RelativePath": "api/TTurno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TTurnoController",
+    "Method": "Add",
+    "RelativePath": "api/TTurno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turno",
+        "Type": "PeluqueriaBack.Data.Models.TTurno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TTurnoController",
+    "Method": "GetById",
+    "RelativePath": "api/TTurno/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PeluqueriaWebApi.Controllers.TTurnoController",
+    "Method": "GetCancels",
+    "RelativePath": "GetCancels/{days}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "days",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

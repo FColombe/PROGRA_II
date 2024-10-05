@@ -68,13 +68,16 @@ public partial class PELUQUERIADBContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("fecha");
+            entity.Property(e => e.FechaCanc).HasColumnName("fecha_canc");
             entity.Property(e => e.Hora)
                 .HasMaxLength(5)
                 .IsUnicode(false)
                 .HasColumnName("hora");
+            entity.Property(e => e.MotivoCanc)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("motivo_canc");
         });
-
-     
 
         OnModelCreatingPartial(modelBuilder);
     }

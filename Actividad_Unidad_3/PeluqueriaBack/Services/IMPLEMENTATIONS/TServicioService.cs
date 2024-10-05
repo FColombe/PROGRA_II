@@ -25,7 +25,7 @@ namespace PeluqueriaBack.Services.IMPLEMENTATIONS
 
         public List<TServicio> GetServicioCosto(int costo)
         {
-            return _oRepo.GetByCosto(costo);     //Se podría utilizar el método getall y luego filtrar, sin necesidad de un método en el repository? Es lo mejor?
+            return _oRepo.GetByCosto(costo);    
         }
 
         public TServicio? GetServicioId(int id)

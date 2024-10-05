@@ -25,18 +25,6 @@
       {
          "Name": "[dbo].[T_TURNOS]",
          "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[SP_CONSULTAR_SERVICIOS]",
-         "ObjectType": 1
-      },
-      {
-         "Name": "[dbo].[SP_CONTAR_TURNOS]",
-         "ObjectType": 1
-      },
-      {
-         "Name": "[dbo].[SP_INSERTAR_DETALLES]",
-         "ObjectType": 1
       }
    ],
    "UiHint": null,

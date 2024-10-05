@@ -63,17 +63,24 @@ namespace PeluqueriaBack.Data.Repositories.Implementations
             }
         }
 
-        public bool Update(TServicio TServicio)
+        public bool Update(TServicio servicio)
         {
-                       
-            if (TServicio != null)
+            var servUpdate = _context.TServicios.Find(servicio.Id);   //Llama al método de filtro por ID para ver si existe o no el servicio a modificar. 
+
+            if (servUpdate != null)
             {
-                _context.TServicios.Update(TServicio);
+                servUpdate.Nombre = servicio.Nombre;              //Hay que asignar las propertis del q viene del swagger al que trae el método getbyid, pq sino se pisan y pasa al catch
+                servUpdate.Costo = servicio.Costo;
+                servUpdate.EnPromocion = servicio.EnPromocion;
+
+                _context.TServicios.Update(servicio);
                 _context.SaveChanges();
                 return true;
             }
             else
-            { return false; }   
+            {
+                return false;
+            }
         }
     }
 }
