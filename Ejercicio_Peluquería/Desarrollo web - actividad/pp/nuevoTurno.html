@@ -58,13 +58,13 @@
                         <h3 class="h32">Agendá tu turno</h3>
                     </div>
                     <div class="col-12">
-                        <form class="d-inline-flex" action="/submit" method="post">
+                        <form class="d-inline-flex" method="post">
                             <div class="alert alert-danger alert-dismissible fade show" hidden role="alert" id="error">
-                                <strong>Error</strong> al registrar la pelicula. Intente nuevamente!
+                                <strong>Error</strong> al reservar el turno. Intente nuevamente.
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="cerrar();"></button>
                             </div>
                             <div class="alert alert-success alert-dismissible fade show" hidden role="alert" id="ok">
-                                Se registró exitosamente!
+                                Su turno fue reservado con éxito. 
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="cerrar();"></button>
                             </div>
                             <div>
@@ -77,7 +77,7 @@
                                 </select>
                             </div>
                             <div>
-                                <button class="btnEnviar mt-5" onclick="reservar_turno();" type="submit" >Enviar</button>
+                                <button class="btnEnviar mt-5" onclick="reservar_turno();" type="button">Enviar</button>
                             </div>
                         </form>
                     </div>

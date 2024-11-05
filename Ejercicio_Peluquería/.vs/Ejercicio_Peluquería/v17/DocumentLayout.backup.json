@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio_Peluquer\u00EDa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7EBE2666-6D70-4C71-BCE5-BAC2C3D7124B}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\ejercicio_peluquer\u00EDa\\peluqueriaback\\data\\models\\tturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EBE2666-6D70-4C71-BCE5-BAC2C3D7124B}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\models\\tturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D3D641-EA9B-4F48-8379-7CED464519A3}|Peluquer\u00EDaWebApi\\Peluquer\u00EDaWebApi.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\ejercicio_peluquer\u00EDa\\peluquer\u00EDawebapi\\controllers\\tturnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D3D641-EA9B-4F48-8379-7CED464519A3}|Peluquer\u00EDaWebApi\\Peluquer\u00EDaWebApi.csproj|solutionrelative:peluquer\u00EDawebapi\\controllers\\tturnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33D3D641-EA9B-4F48-8379-7CED464519A3}|Peluquer\u00EDaWebApi\\Peluquer\u00EDaWebApi.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\ejercicio_peluquer\u00EDa\\peluquer\u00EDawebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33D3D641-EA9B-4F48-8379-7CED464519A3}|Peluquer\u00EDaWebApi\\Peluquer\u00EDaWebApi.csproj|solutionrelative:peluquer\u00EDawebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EBE2666-6D70-4C71-BCE5-BAC2C3D7124B}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\ejercicio_peluquer\u00EDa\\peluqueriaback\\data\\repositories\\implementations\\tserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EBE2666-6D70-4C71-BCE5-BAC2C3D7124B}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\repositories\\implementations\\tserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33D3D641-EA9B-4F48-8379-7CED464519A3}|Peluquer\u00EDaWebApi\\Peluquer\u00EDaWebApi.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\ejercicio_peluquer\u00EDa\\peluquer\u00EDawebapi\\controllers\\tturnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33D3D641-EA9B-4F48-8379-7CED464519A3}|Peluquer\u00EDaWebApi\\Peluquer\u00EDaWebApi.csproj|solutionrelative:peluquer\u00EDawebapi\\controllers\\tturnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EBE2666-6D70-4C71-BCE5-BAC2C3D7124B}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\ejercicio_peluquer\u00EDa\\peluqueriaback\\data\\models\\tturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EBE2666-6D70-4C71-BCE5-BAC2C3D7124B}|PeluqueriaBack\\PeluqueriaBack.csproj|solutionrelative:peluqueriaback\\data\\models\\tturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EBE2666-6D70-4C71-BCE5-BAC2C3D7124B}|PeluqueriaBack\\PeluqueriaBack.csproj|c:\\users\\usuario\\source\\repos\\progra_ii\\ejercicio_peluquer\u00EDa\\peluqueriaback\\data\\models\\tdetallesturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TServicioRepository.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio_Peluquer\u00EDa\\PeluqueriaBack\\Data\\Repositories\\Implementations\\TServicioRepository.cs",
               "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Repositories\\Implementations\\TServicioRepository.cs",
@@ -110,12 +110,11 @@
               "RelativeToolTip": "PeluqueriaBack\\Data\\Repositories\\Implementations\\TServicioRepository.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAqwCkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:02:13.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T02:02:13.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TServicioController.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio_Peluquer\u00EDa\\Peluquer\u00EDaWebApi\\Controllers\\TServicioController.cs",
               "RelativeDocumentMoniker": "Peluquer\u00EDaWebApi\\Controllers\\TServicioController.cs",
@@ -123,18 +122,17 @@
               "RelativeToolTip": "Peluquer\u00EDaWebApi\\Controllers\\TServicioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:03:11.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T02:03:11.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio_Peluquer\u00EDa\\Peluquer\u00EDaWebApi\\Program.cs",
               "RelativeDocumentMoniker": "Peluquer\u00EDaWebApi\\Program.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio_Peluquer\u00EDa\\Peluquer\u00EDaWebApi\\Program.cs",
               "RelativeToolTip": "Peluquer\u00EDaWebApi\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T19:10:16.739Z",
               "EditorCaption": ""
@@ -177,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "TTurno.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio_Peluquer\u00EDa\\PeluqueriaBack\\Data\\Models\\TTurno.cs",
               "RelativeDocumentMoniker": "PeluqueriaBack\\Data\\Models\\TTurno.cs",
@@ -185,17 +183,18 @@
               "RelativeToolTip": "PeluqueriaBack\\Data\\Models\\TTurno.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T19:05:08.178Z"
+              "WhenOpened": "2024-10-04T19:05:08.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TTurnoController.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio_Peluquer\u00EDa\\Peluquer\u00EDaWebApi\\Controllers\\TTurnoController.cs",
               "RelativeDocumentMoniker": "Peluquer\u00EDaWebApi\\Controllers\\TTurnoController.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\PROGRA_II\\Ejercicio_Peluquer\u00EDa\\Peluquer\u00EDaWebApi\\Controllers\\TTurnoController.cs",
               "RelativeToolTip": "Peluquer\u00EDaWebApi\\Controllers\\TTurnoController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAqwL0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAQwL0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T19:39:17.396Z",
               "EditorCaption": ""

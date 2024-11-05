@@ -20,15 +20,16 @@ async function cargar_servicios() {
 function reservar_turno() {
     const $divError = document.getElementById("error");
     const $divOk = document.getElementById("ok");
-    const $fecha = document.getElementById("datetime");
-    const $hora = document.getElementById("datetime");
-    const $cliente = "";
+    const $fechayhora = document.getElementById("datetime").value;
+    const [$fecha, $hora] = $fechayhora.split("T");
     const $servicio = document.getElementById("servicios");
 
     let data = {
-        fecha: $fecha.value,
-        hora: $hora.value,
-        cliente: "Paolo López"
+        fecha: $fecha,
+        hora: $hora,
+        cliente: "Paolo López",
+        fechCanc: null,
+        MotivoCanc: null
     };
 
     fetch('https://localhost:7122/api/TTurno', {
@@ -50,10 +51,14 @@ function reservar_turno() {
 
         })
         .then(data => {
-            console.log('Respuesta del servidor:', data); // Maneja la respuesta del servidor
+            console.log('Respuesta del servidor:', data); 
         })
         .catch(error => {
-            console.error('Error:', error); // Manejo de errores
+            console.error('Error:', error); 
         });
 
+}
+
+function cerrar(id) {
+    document.getElementById(id).hidden = true;
 }
