@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">   
+    <title>Actividad HTML</title>
+</head>
+<body class="container-fluid">
+    <header class="row">
+        <h1 class="col">RED STAR</h1>
+        <h2 class="col pelu">barbería y peluquería</h2>
+        <h4 class="col signOut"><a href="./pp/login.html">sign out</a></h4>
+    </header>
+    <div class="row">
+        <div class="col-3 sideBar">
+            <div class="col-12 user">
+                <img class="imgUser" src="./img/usuario.png" alt="Imagen standar usuario" >
+                <h3>Paolo López</h3>
+            </div>        
+            <nav class="col-12">
+                <ul>
+                    <div class="btnMenu">
+                        <li>
+                        <a href="./pp/nuevoTurno.html">Agendar turno</a>
+                        </li>
+                    </div>
+                    <div class="btnMenu">
+                        <li>
+                        <a href="./pp/servicios.html">Servicios</a>
+                        </li>
+                    </div>
+                    <div class="btnMenu">
+                        <li>
+                        <a href="./pp/misTurnos.html">Mis turnos</a>
+                        </li>
+                    </div>
+                    <div class="btnMenu">
+                        <li>
+                            <a href="./pp/contacto.html">Contacto</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-9">
+            <main class="row">
+                <section class="col-6 cajasDash">
+                    <p>Tu última visita fue el xx/xx/xxxx.</p>
+                    <p>Hace XXX días que no te vemos...</p>
+                    <button>
+                        <a href="./pp/nuevoTurno.html">Agendar un turno</a>
+                    </button>
+                </section>
+                <section class="col-6 cajasDash">
+                    <p>Animate a un cambio de look</p>
+                    <img class="imgBarbero" src="./img/Barbero-profesional-900x566.jpg" alt="Imagen corte de pelo">
+                    <button>
+                        <a href="./pp/servicios.html">Conocé nuestros servicios</a>
+                    </button>
+                </section>
+                <section class="col-6 cajasDash">
+                    <p>No tienes turnos registrados.</p>
+                    <button>
+                        <a href="./pp/misTurnos.html">Ver turnos anteriores</a>
+                    </button>
+                </section>
+                <section class="col-6 cajasDash">
+                    <p style="font-weight: bold">¿Dónde estamos?</p>
+                    <div >
+                        <p class="p2">Paraná 600, Nueva Córdoba</p>
+                        <p class="p2">Córdoba, Argentina</p>
+                    </div>
+                    <iframe class="mt-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.5952556538246!2d-64.1806098!3d-31.4252757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a291abd928c1%3A0xa932a9b27205e13a!2sParan%C3%A1%20600%2C%20X5000HXN%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1729458823494!5m2!1ses-419!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </main>
+        </div>
+    </div>
+    <footer class="row foot">
+        <h5>@2024 - Realizado para Programación II (TUP-UTN)</h5>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

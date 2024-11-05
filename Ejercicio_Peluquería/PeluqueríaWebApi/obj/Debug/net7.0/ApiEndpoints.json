@@ -1,5 +1,111 @@
 [
   {
+    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TServicioController",
+    "Method": "Delete",
+    "RelativePath": "{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TServicioController",
+    "Method": "Get",
+    "RelativePath": "api/TServicio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TServicioController",
+    "Method": "Post",
+    "RelativePath": "api/TServicio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servicio",
+        "Type": "PeluqueriaBack.Data.Models.TServicio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TServicioController",
+    "Method": "Put",
+    "RelativePath": "api/TServicio",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servicio",
+        "Type": "PeluqueriaBack.Data.Models.TServicio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TServicioController",
+    "Method": "GetByCosto",
+    "RelativePath": "api/TServicio/GetByCosto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "costoMenor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TServicioController",
+    "Method": "Get",
+    "RelativePath": "api/TServicio/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TServicioController",
+    "Method": "GetByProm",
+    "RelativePath": "api/TServicio/GetByProm",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prom",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TTurnoController",
     "Method": "Get",
     "RelativePath": "api/TTurno",

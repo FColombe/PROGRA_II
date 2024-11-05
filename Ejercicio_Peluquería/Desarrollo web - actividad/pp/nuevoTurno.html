@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+    <title>Actividad HTML - p1</title>
+</head>
+<body class="container-fluid">
+    <header class="row">
+        <h1 class="col">RED STAR</h1>
+        <h2 class="col pelu">barbería y peluquería</h2>
+        <h4 class="col signOut"><a href="../pp/login.html">sign out</a></h4>
+    </header>
+    <div class="row">
+        <div class="col-3 sideBar">
+            <div class="col-12 user">
+                <img class="imgUser" src="../img/usuario.png" alt="Imagen standar usuario">
+                <h3>Paolo López</h3>
+            </div>
+            <nav class="col-12">
+                <ul>
+                    <div class="btnMenu">
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                    </div>
+                    <div class="btnMenu">
+                        <li>
+                            <a href="../pp/servicios.html">Servicios</a>
+                        </li>
+                    </div>
+                    <div class="btnMenu">
+                        <li>
+                            <a href="../pp/misTurnos.html">Mis turnos</a>
+                        </li>
+                    </div>
+                    <div class="btnMenu">
+                        <li>
+                            <a href="../pp/contacto.html">Contacto</a>
+                        </li>
+                    </div>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="col-9">
+            <main class="row">
+                <div class="col-6 d-flex align-content-center flex-wrap">
+                    <div class="col-12 cajaH3">
+                        <h3 class="h32">Agendá tu turno</h3>
+                    </div>
+                    <div class="col-12">
+                        <form class="d-inline-flex" action="/submit" method="post">
+                            <div class="alert alert-danger alert-dismissible fade show" hidden role="alert" id="error">
+                                <strong>Error</strong> al registrar la pelicula. Intente nuevamente!
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="cerrar();"></button>
+                            </div>
+                            <div class="alert alert-success alert-dismissible fade show" hidden role="alert" id="ok">
+                                Se registró exitosamente!
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="cerrar();"></button>
+                            </div>
+                            <div>
+                                <label class="label2" for="datetime">Seleccioná fecha y hora:</label>
+                                <input class="datePick" type="datetime-local" id="datetime" name="datetime" required>
+                            </div>
+                            <div class="cajaServicios mt-4">
+                                <label class="label2" for="servicios">Seleccioná un servicio:</label>
+                                <select id="servicios"  required>
+                                </select>
+                            </div>
+                            <div>
+                                <button class="btnEnviar mt-5" onclick="reservar_turno();" type="submit" >Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6 d-flex align-content-center flex-wrap">
+                    <img class="imglocal" src="../img/local.jpg" alt="">
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer class="row foot">
+        <h5>@2024 - Realizado para Programación II (TUP-UTN)</h5>
+    </footer>
+    <script src="../index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

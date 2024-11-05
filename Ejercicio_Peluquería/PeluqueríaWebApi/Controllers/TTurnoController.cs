@@ -159,6 +159,7 @@ namespace PeluqueríaWebApi.Controllers
         {
             try
             {
+                turno.Fecha = this.FechaDefault(turno);
                 if (this.IsValid(turno) == false)
                 {
                     return BadRequest(@"Debe completar los campos en un formato válido. 
@@ -225,22 +226,20 @@ namespace PeluqueríaWebApi.Controllers
                     && fechaValida <= fechaMax;
         }
 
-        private string FechaDefault(TTurno t)                // Método para asignar un valor por defecto
+        private string FechaDefault(TTurno t)                // Método para asignar un valor por defecto si no se ingresa una fecha
         {
             if(string.IsNullOrWhiteSpace(t.Fecha))
             {
                 var fechaValida = DateTime.Today.AddDays(1);
-
+                
                 var fechaEnLetras = fechaValida.ToString("yyyy/MM/dd");
                 return fechaEnLetras;
             }
             else
-            
             { 
                 return t.Fecha; 
             }
         }
-       
         
         private DateTime? ConvertFecha(string fecha)        //Método para convertir los valores del campo varchar fecha a DateTime y evitar que se ingrese cualquier cosa
         {
