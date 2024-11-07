@@ -52,5 +52,10 @@ namespace PeluqueriaBack.Services.Implementations
         {
             return _repository.Update(turno);
         }
+
+        public async Task<bool> Reservar(TTurno turno)
+        {
+            return await _repository.ReservarTurno(turno);   
+        }
     }
 }

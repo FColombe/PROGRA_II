@@ -51,6 +51,36 @@ namespace PeluqueriaBack.Data.Repositories.Implementations
             }
         }
 
+        //TRANSACCIÓN
+        public async Task<bool> ReservarTurno(TTurno turno)
+        {
+            using (var trans = await _context.Database.BeginTransactionAsync())
+            {
+                try
+                {
+
+                    _context.TTurnos.Add(turno);
+                    await _context.SaveChangesAsync();
+
+                    foreach (var detalle in turno.TDetallesTurnos)
+                    {
+                        detalle.IdTurno = turno.Id;
+                    }
+
+                    await _context.SaveChangesAsync();
+
+                    await trans.CommitAsync();
+
+                    return true;
+                }
+                catch 
+                {
+                    await trans.RollbackAsync();    
+                    return false;
+                }
+            }
+        }
+
         public bool Delete(int id, DateTime fechaCancelacion, string motivo)
         {
             var turnoDelete = _context.TTurnos.Find(id);

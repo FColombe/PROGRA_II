@@ -117,22 +117,6 @@
   },
   {
     "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TTurnoController",
-    "Method": "Post",
-    "RelativePath": "api/TTurno",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "turno",
-        "Type": "PeluqueriaBack.Data.Models.TTurno",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TTurnoController",
     "Method": "Put",
     "RelativePath": "api/TTurno",
     "HttpMethod": "PUT",
@@ -169,6 +153,22 @@
         "Name": "motivo",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Peluquer\u00EDaWebApi.Controllers.TTurnoController",
+    "Method": "PostAsync",
+    "RelativePath": "api/TTurno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "turno",
+        "Type": "PeluqueriaBack.Data.Models.TTurno",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

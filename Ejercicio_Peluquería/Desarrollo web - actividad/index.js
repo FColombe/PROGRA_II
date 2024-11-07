@@ -17,7 +17,7 @@ async function cargar_servicios() {
 }
 
 
-function reservar_turno() {
+async function reservar_turno() {
     const $divError = document.getElementById("error");
     const $divOk = document.getElementById("ok");
     const $fechayhora = document.getElementById("datetime").value;
@@ -29,10 +29,11 @@ function reservar_turno() {
         hora: $hora,
         cliente: "Paolo López",
         fechCanc: null,
-        MotivoCanc: null
+        MotivoCanc: null,
+        idServicio: $servicio
     };
 
-    fetch('https://localhost:7122/api/TTurno', {
+    await fetch('https://localhost:7122/api/TTurno', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json' 

@@ -125,34 +125,34 @@ namespace PeluqueríaWebApi.Controllers
             
         }
 
-        [HttpPost]
-        public IActionResult Post([FromBody] TTurno turno)
-        {
-            try
-            {
-                turno.Fecha = this.FechaDefault(turno);
-                if(this.IsValid(turno) == false)
-                {
-                    return BadRequest("Debe completar todos los campos en un formato válido.\nRecuerde que no se pueden agendar turnos con fechas anteriores al día de mañana ni con más de 45 días de antelación.");
-                }
-                else
-                {
-                    if(_serv.AddTurno(turno))
-                    {
-                        return Ok("Se ha agendado el turno.");
-                    }
-                    else
-                    {
-                        return StatusCode(500, "Ya existe un turno en ese día y horario. Elegir otra fecha.");
-                    }
-                }
-            }
-            catch (Exception)
-            {
+        //[HttpPost]
+        //public IActionResult Post([FromBody] TTurno turno)
+        //{
+        //    try
+        //    {
+        //        turno.Fecha = this.FechaDefault(turno);
+        //        if(this.IsValid(turno) == false)
+        //        {
+        //            return BadRequest("Debe completar todos los campos en un formato válido.\nRecuerde que no se pueden agendar turnos con fechas anteriores al día de mañana ni con más de 45 días de antelación.");
+        //        }
+        //        else
+        //        {
+        //            if(_serv.AddTurno(turno))
+        //            {
+        //                return Ok("Se ha agendado el turno.");
+        //            }
+        //            else
+        //            {
+        //                return StatusCode(500, "Ya existe un turno en ese día y horario. Elegir otra fecha.");
+        //            }
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
 
-                return StatusCode(500, "Error interno. Intente más tarde.");
-            }
-        }
+        //        return StatusCode(500, "Error interno. Intente más tarde.");
+        //    }
+        //}
 
         [HttpPut]
         public IActionResult Put([FromBody] TTurno turno)
@@ -210,6 +210,45 @@ namespace PeluqueríaWebApi.Controllers
                 return StatusCode(500, "Error interno. Intente más tarde.");
             }
         }
+
+        [HttpPost]
+        public async Task<IActionResult> PostAsync([FromBody] TTurno turno)
+        {
+            try
+            {
+                turno.Fecha = this.FechaDefault(turno);
+                if (this.IsValid(turno) == false)
+                {
+                    return BadRequest("Debe completar todos los campos en un formato válido.\nRecuerde que no se pueden agendar turnos con fechas anteriores al día de mañana ni con más de 45 días de antelación.");
+                }
+                else
+                {
+                    var reserva = await _serv.Reservar(turno);
+                    if (reserva)
+                    {
+                        return Ok("Se ha agendado el turno.");
+                    }
+                    else
+                    {
+                        return StatusCode(500, "Ya existe un turno en ese día y horario. Elegir otra fecha.");
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(500, "Error interno. Intente más tarde.");
+            }
+        }
+
+
+
+
+
+
+
+
+
 
 
         private bool IsValid(TTurno t)                       //Método para validar los campos

@@ -212,7 +212,7 @@ namespace PeluqueríaWebApi.Controllers
 
         private bool IsValid(TServicio serv)   //los campos son todos not null en la BD, por eso hace falta validar cada properti
         {
-            if (serv.Id != 0 && !string.IsNullOrWhiteSpace(serv.Nombre) && serv.Costo >= 0 && !string.IsNullOrWhiteSpace(serv.EnPromocion))
+            if (!string.IsNullOrWhiteSpace(serv.Nombre) && serv.Costo >= 0 && !string.IsNullOrWhiteSpace(serv.EnPromocion))
             {
                 return true;
             }

@@ -23,25 +23,35 @@ public partial class PELUQUERIAContext : DbContext
     {
         modelBuilder.Entity<TDetallesTurno>(entity =>
         {
-            entity.HasKey(e => new { e.IdTurno, e.IdServicio });
+            entity.HasKey(e => e.Id).HasName("pk_detalle");
 
             entity.ToTable("T_DETALLES_TURNO");
 
-            entity.Property(e => e.IdTurno).HasColumnName("id_turno");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.IdServicio).HasColumnName("id_servicio");
+            entity.Property(e => e.IdTurno).HasColumnName("id_turno");
             entity.Property(e => e.Observaciones)
-                .HasMaxLength(200)
+                .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("observaciones");
+
+            entity.HasOne(d => d.IdServicioNavigation).WithMany(p => p.TDetallesTurnos)
+                .HasForeignKey(d => d.IdServicio)
+                .HasConstraintName("fk_detalle_servicio");
+
+            entity.HasOne(d => d.IdTurnoNavigation).WithMany(p => p.TDetallesTurnos)
+                .HasForeignKey(d => d.IdTurno)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_detalle_turno");
         });
 
         modelBuilder.Entity<TServicio>(entity =>
         {
+            entity.HasKey(e => e.Id).HasName("pk_servicios");
+
             entity.ToTable("T_SERVICIOS");
 
-            entity.Property(e => e.Id)
-                .ValueGeneratedNever()
-                .HasColumnName("id");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Costo).HasColumnName("costo");
             entity.Property(e => e.EnPromocion)
                 .IsRequired()
@@ -57,6 +67,8 @@ public partial class PELUQUERIAContext : DbContext
 
         modelBuilder.Entity<TTurno>(entity =>
         {
+            entity.HasKey(e => e.Id).HasName("pk_turnos");
+
             entity.ToTable("T_TURNOS");
 
             entity.Property(e => e.Id).HasColumnName("id");

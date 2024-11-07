@@ -16,5 +16,6 @@ namespace PeluqueriaBack.Services.Contracts
         bool AddTurno(TTurno turno);
         bool DeleteTurno(int id, DateTime fechaCancelacion, string motivo);
         bool UpdateTurno(TTurno turno);
+        Task<bool> Reservar(TTurno turno);
     }
 }
